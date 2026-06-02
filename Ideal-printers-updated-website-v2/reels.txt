@@ -1,0 +1,43 @@
+            </ul> 
+                  </div>
+                </div>
+              </div>
+
+                      <section class="mt-4">
+            <h3 class="mb-4 text-center fw-bold mb-0 center-line">The Reel Shelf</h3>
+          
+            <div class="container mb-4">
+              <div class="splide" id="watchShopSliderReelsTwo">
+                <div class="splide__track">
+                  <ul class="splid
+---
+         </ul>
+                  </div>
+                </div>
+              </div>
+
+
+              
+          <section class="mt-4">
+            <h3 class="mb-4 text-center fw-bold mb-0 center-line">The Reel Shelf</h3>
+          
+            <div class="container mb-4">
+              <div class="splide" id="watchShopSliderReelsTwo">
+                <div class="splide__track">
+                  <ul class="splid
+---
+              </ul>
+                  </div>
+                </div>
+              </div>
+
+
+        
+
+          <section class="mt-4">
+            <h3 class="mb-4 text-center fw-bold mb-0 center-line">The Reel Shelf</h3>
+          
+            <div class="container mb-4">
+              <div class="splide" id="watchShopSliderReelsTwo">
+                <div class="splide__track">
+                  <ul class="splid

@@ -1,0 +1,357 @@
+/* ================================================================
+   IDEAL PRINTERS — COMPLETE UI THEME (BLUE PALETTE, NO GOLD)
+   Primary: #214f86  |  Mid: #4b82bf  |  Dark: #1a3f6e
+   ================================================================ */
+
+:root {
+  --ip-blue-1:   #4b82bf;
+  --ip-blue-2:   #214f86;
+  --ip-blue-3:   #1a3f6e;
+  --ip-blue-4:   #122c52;
+  --ip-blue-light: #7aaee0;
+  --ip-blue-soft:  rgba(75,130,191,0.13);
+  --ip-blue-border: rgba(75,130,191,0.28);
+  --ip-grad-nav:   linear-gradient(90deg, #122c52 0%, #214f86 50%, #1a3f6e 100%);
+  --ip-grad-main:  linear-gradient(135deg, #4b82bf 0%, #214f86 50%, #122c52 100%);
+  --ip-grad-footer: linear-gradient(135deg, #122c52 0%, #1a3f6e 60%, #214f86 100%);
+  --ip-grad-bg:    linear-gradient(160deg, #e8f0fb 0%, #d0e3f5 40%, #b8d4ef 100%);
+}
+
+/* ── BODY ── */
+html { scroll-behavior: smooth; }
+body {
+  background: var(--ip-grad-bg) !important;
+  background-attachment: fixed !important;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* ──────────────────────────────────────────
+   NAVBAR — Deep blue gradient, single menu
+   ────────────────────────────────────────── */
+.contact-container {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1080 !important;
+  background: var(--ip-grad-nav) !important;
+  border-bottom: 2px solid rgba(255,255,255,0.12) !important;
+  box-shadow: 0 4px 24px rgba(12,30,56,0.30) !important;
+  height: auto !important;
+}
+.navbar-container {
+  background: var(--ip-grad-nav) !important;
+}
+.navbar {
+  background: transparent !important;
+}
+.navbar a,
+.nav-link {
+  color: rgba(255,255,255,0.90) !important;
+  font-weight: 500 !important;
+}
+.dropdown-toggle {padding: 10px;}
+.navbar a:hover,
+.nav-link:hover {
+  color: #ffffff !important;
+}
+.nav-contact {
+  background: transparent !important;
+}
+.nav-contact .contact-div,
+.nav-contact .contact-div a,
+.whatsapp-icon,
+.nav-contact i {
+  color: rgba(255,255,255,0.88) !important;
+}
+.nav-contact .contact-div a:hover { color: #fff !important; }
+.nav-contact .social-icon a {
+  color: rgba(255,255,255,0.75) !important;
+  border: 1px solid rgba(255,255,255,0.30) !important;
+  border-radius: 50%;
+  padding: 3px 6px;
+  transition: all 0.22s;
+}
+.nav-contact .social-icon a:hover {
+  background: rgba(255,255,255,0.18) !important;
+  color: #fff !important;
+}
+
+/* Nav item hover – same light blue as Home background */
+.navbar .nav-item:hover .nav-link,
+.home-link:hover {
+  background: rgba(75,130,191,0.28) !important;
+  color: #ffffff !important;
+  border-radius: 6px !important;
+}
+
+/* Home button active state */
+.home-btn a {
+  background: rgba(75,130,191,0.20) !important;
+  border-radius: 6px;
+  color: #fff !important;
+}
+.home-btn a:hover {
+  background: rgba(75,130,191,0.38) !important;
+  color: #fff !important;
+}
+
+/* ── Single Hamburger fix — hide JS-injected one ── */
+.ip-menu-toggle { display: none !important; }
+
+/* Original hamburger toggler — keep & style */
+.navbar-toggler {
+    background: rgba(255, 255, 255, 0.12) !important;
+    border: 1.5px solid rgba(255, 255, 255, 0.40) !important;
+    border-radius: 8px !important;
+    padding: 4px 0px !important;
+    margin-top: 6px !important;
+    transition: all 0.22s;
+    height: 40px;
+    width: 40px;
+}
+.navbar-toggler:hover {
+  background: rgba(255,255,255,0.22) !important;
+  border-color: rgba(255,255,255,0.65) !important;
+}
+.navbar-toggler-icon {
+  filter: invert(1) !important;
+}
+/* Hamburger lines inside original toggler */
+.hamburger .line {
+  background: #ffffff !important;
+}
+
+/* ── DROPDOWN ── */
+.dropdown-menu {
+  background: #ffffff !important;
+  border: none !important;
+  border-top: 3px solid var(--ip-blue-1) !important;
+  border-radius: 0 0 12px 12px !important;
+  box-shadow: 0 12px 40px rgba(12,30,56,0.18) !important;
+}
+.dropdown-class > h5,
+.nav-opt-heading { color: var(--ip-blue-2) !important; font-weight: 700 !important; }
+.dropdown-class > a { color: #333 !important; }
+.dropdown-class > a:hover,
+.nav-sub-heading:hover { color: var(--ip-blue-2) !important; background: rgba(75,130,191,0.28) !important;
+  border-radius: 6px !important; padding: 0 2px !important;}
+.nav-products > a:hover {color: var(--ip-blue-2) !important;}
+/* SVG arrow in dropdown */
+.dropdown-class svg path { fill: var(--ip-blue-1) !important; }
+
+/* ──────────────────────────────────────────
+   BUTTONS
+   ────────────────────────────────────────── */
+.btn-template-main {
+  background: var(--ip-grad-main) !important;
+  border: none !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 16px rgba(33,79,134,0.38) !important;
+  transition: all 0.25s ease !important;
+}
+.btn-template-main:hover {
+  background: linear-gradient(135deg, #122c52 0%, #214f86 100%) !important;
+  box-shadow: 0 6px 24px rgba(12,30,56,0.48) !important;
+  transform: translateY(-2px);
+  color: #fff !important;
+}
+
+/* ──────────────────────────────────────────
+   HEADINGS & TEXT
+   ────────────────────────────────────────── */
+.color, .text-primary { color: var(--ip-blue-2) !important; }
+.h2-heading { color: var(--ip-blue-4) !important; font-weight: 800; }
+.heading-title::after {
+  background: linear-gradient(90deg,
+    rgba(33,79,134,0.05) 0%,
+    rgba(75,130,191,0.80) 50%,
+    rgba(33,79,134,0.05) 100%) !important;
+}
+
+/* ──────────────────────────────────────────
+   TRUST BAR / STATS
+   ────────────────────────────────────────── */
+.trust-icon {
+  background: var(--ip-blue-soft) !important;
+  color: var(--ip-blue-2) !important;
+  border-radius: 50%;
+  border: 1.5px solid var(--ip-blue-border);
+}
+.trust-content strong { color: var(--ip-blue-4) !important; }
+
+.overview-div {
+  background: rgba(255,255,255,0.85) !important;
+  border: 1px solid var(--ip-blue-border) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px rgba(33,79,134,0.14) !important;
+  backdrop-filter: blur(8px);
+}
+.overview-count { color: var(--ip-blue-2) !important; font-weight: 800 !important; }
+
+/* ──────────────────────────────────────────
+   CARDS & SECTIONS
+   ────────────────────────────────────────── */
+.bg-light {
+  background: rgba(255,255,255,0.70) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+}
+
+.larg-formate-container a { color: var(--ip-blue-2) !important; font-weight: 600; }
+.larg-formate-container > div {
+  border-bottom: 3px solid rgba(75,130,191,0.25) !important;
+  background: rgba(255,255,255,0.65);
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 0.22s;
+}
+.larg-formate-container > div:hover {
+  border-bottom-color: var(--ip-blue-2) !important;
+  background: rgba(255,255,255,0.95);
+  box-shadow: 0 4px 14px rgba(33,79,134,0.14);
+}
+
+/* ──────────────────────────────────────────
+   TESTIMONIALS (dark navy section)
+   ────────────────────────────────────────── */
+.testimonials-container {
+  background: linear-gradient(135deg, #122c52 0%, #0c1e38 100%) !important;
+  padding: 60px 0 !important;
+}
+.testimonial-heading .h2-heading,
+.testimonials-container .h2-heading,
+.testimonials-container h2 { color: #fff !important; }
+.testimonial-heading .h2-heading,
+.testimonials-container .h2-heading,
+.testimonials-container p { color: #fff !important; }
+.testimonial-div {
+  background: rgba(255,255,255,0.97) !important;
+  border: 1px solid rgba(75,130,191,0.15) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 8px 32px rgba(12,30,56,0.22) !important;
+}
+.t-icon { color: var(--ip-blue-2) !important; }
+.testimonial-div p { color: #555 !important; }
+.testimonial-div h6 { color: var(--ip-blue-2) !important; }
+.testimonial-div h5 { color: var(--ip-blue-2) !important; }
+
+/* ──────────────────────────────────────────
+   MARQUEE / PARTNER LOGOS
+   ────────────────────────────────────────── */
+.marquee {
+  background: rgba(255,255,255,0.72) !important;
+  border-radius: 10px;
+}
+
+/* ──────────────────────────────────────────
+   FOOTER — SAME BLUE GRADIENT AS HEADER
+   ────────────────────────────────────────── */
+.main-footer {
+  /* background: var(--ip-grad-nav) !important; */
+  background-image: none !important;
+  border-top: 3px solid var(--ip-blue-1) !important;
+  color: rgba(255,255,255,0.80) !important;
+  background: var(--ip-grad-nav) !important;
+}
+.main-footer a {
+  color: rgba(255,255,255,0.75) !important;
+  transition: color 0.2s, padding-left 0.2s;
+}
+.main-footer a:hover {
+  color: var(--ip-blue-light) !important;
+  padding-left: 4px;
+}
+.footer-heading {
+  color: var(--ip-blue-light) !important;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+}
+.copyrights {
+  background: #0a1e3a !important;
+  color: rgba(255,255,255,0.55) !important;
+  border-top: 1px solid rgba(75,130,191,0.20) !important;
+}
+.copyrights a { color: var(--ip-blue-light) !important; }
+
+/* ──────────────────────────────────────────
+   CONTACT CTA BAR
+   ────────────────────────────────────────── */
+.contact-us-div {
+  background: var(--ip-grad-main) !important;
+}
+.contact-btn {
+  border: 2px solid rgba(255,255,255,0.70) !important;
+  color: rgba(255,255,255,0.92) !important;
+  border-radius: 8px !important;
+  background: transparent !important;
+}
+.contact-btn:hover {
+  background: rgba(255,255,255,0.15) !important;
+  color: #fff !important;
+}
+
+/* ──────────────────────────────────────────
+   MISC UI ELEMENTS
+   ────────────────────────────────────────── */
+#back-to-top {
+  background: var(--ip-grad-main) !important;
+  color: #fff !important;
+  box-shadow: 0 4px 14px rgba(33,79,134,0.40) !important;
+  border-radius: 50%;
+}
+.breadcrumb-item + .breadcrumb-item::before { color: var(--ip-blue-1) !important; }
+.breadcrumb-item a { color: var(--ip-blue-2) !important; }
+
+.search__input:focus {
+  border-color: var(--ip-blue-1) !important;
+  box-shadow: 0 0 0 3px rgba(75,130,191,0.22) !important;
+}
+.search__term-highlight {
+  background: rgba(75,130,191,0.20) !important;
+  color: var(--ip-blue-2) !important;
+}
+.search__results, .search__results1 {
+  border-top: 2px solid var(--ip-blue-1) !important;
+}
+
+.tab-cont .mobile-nav-btn.active {
+  background: rgba(33,79,134,0.10) !important;
+  color: var(--ip-blue-2) !important;
+  border-left: 3px solid var(--ip-blue-2) !important;
+  font-weight: 700 !important;
+}
+
+.portfolio-org-btn {
+  background: var(--ip-grad-main) !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+}
+
+/* Fix any remaining gold badge spans */
+span[style*="background-color: #214f86"],
+span[style*="background-color: #4b82bf"] {
+  background: var(--ip-grad-main) !important;
+  color: #fff !important;
+  border-radius: 4px !important;
+}
+
+/* ── SMOOTH TRANSITIONS ── */
+* { transition: background-color 0.45s ease, color 0.60s ease; }
+a, button { transition: all 0.28s ease !important; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 820px) {
+  .contact-container { z-index: 1080 !important; height: auto !important; }
+  .navbar-container { background: var(--ip-grad-nav) !important; }
+  .navbar a { color: rgba(255,255,255,0.90) !important; }
+  .dropdown-menu {
+    background: #fff !important;
+    border-top: 3px solid var(--ip-blue-1) !important;
+    box-shadow: 0 8px 24px rgba(12,30,56,0.18) !important;
+  }
+  .dropdown-class > a { color: #333 !important; }
+  body { background-attachment: scroll !important; }
+}

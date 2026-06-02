@@ -1,0 +1,165 @@
+.wp-list-table .content-bookmarks-icon:before {
+	display: inline-block;
+	padding: 0;
+	top: 2px;
+	position: relative;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none !important;
+	width: 18px;
+	height: 18px;
+	/* teenyicons:bookmark-outline @ iconify.design */
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 15'%3E%3Cpath fill='%232271B1' d='m12.5 14.5l-.312.39A.5.5 0 0 0 13 14.5zm0-14h.5V0h-.5zm-10 0V0H2v.5zm0 14H2a.5.5 0 0 0 .812.39zm5-4l.312-.39a.5.5 0 0 0-.624 0zm5.5 4V.5h-1v14zM2 .5v14h1V.5zm.812 14.39l5-4l-.624-.78l-5 4zm4.376-4l5 4l.624-.78l-5-4zM12.5 0h-10v1h10z'/%3E%3C/svg%3E");
+}
+
+.wp-list-table th .content-bookmarks-icon.bookmarked:before {
+	/* teenyicons:bookmark-solid @ iconify.desig n*/
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 15'%3E%3Cpath fill='%23333' d='M13 0H2v14.5a.5.5 0 0 0 .812.39L7.5 11.14l4.688 3.75A.5.5 0 0 0 13 14.5z'/%3E%3C/svg%3E");
+}
+
+.wp-list-table .content-bookmarks-icon.bookmarked:before {
+	/* teenyicons:bookmark-solid @ iconify.design */
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 15'%3E%3Cpath fill='%232271B1' d='M13 0H2v14.5a.5.5 0 0 0 .812.39L7.5 11.14l4.688 3.75A.5.5 0 0 0 13 14.5z'/%3E%3C/svg%3E");
+}
+
+.wp-list-table .content-bookmarks-icon:hover:before {
+	/* teenyicons:bookmark-outline @ iconify.design */
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 15'%3E%3Cpath fill='%23135E96' d='m12.5 14.5l-.312.39A.5.5 0 0 0 13 14.5zm0-14h.5V0h-.5zm-10 0V0H2v.5zm0 14H2a.5.5 0 0 0 .812.39zm5-4l.312-.39a.5.5 0 0 0-.624 0zm5.5 4V.5h-1v14zM2 .5v14h1V.5zm.812 14.39l5-4l-.624-.78l-5 4zm4.376-4l5 4l.624-.78l-5-4zM12.5 0h-10v1h10z'/%3E%3C/svg%3E");
+}
+
+.wp-list-table .content-bookmarks-icon.bookmarked:hover:before {
+	/* teenyicons:bookmark-solid @ iconify.design */
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 15'%3E%3Cpath fill='%23135E96' d='M13 0H2v14.5a.5.5 0 0 0 .812.39L7.5 11.14l4.688 3.75A.5.5 0 0 0 13 14.5z'/%3E%3C/svg%3E");
+}
+
+th.column-bookmark, td.column-bookmark {
+	width: 2em;
+	text-align: center;
+}
+
+th.column-bookmark, td.column-bookmark {
+	width: 2em;
+	text-align: center;
+}
+
+.wp-submenu .content-bookmarks-icon:before {
+	font-size: 12px;
+	padding-right:5px;
+}
+
+#dashboard_my_bookmarks h4 {
+	font-weight: bold;
+}
+
+#dashboard_my_bookmarks .content-bookmarks-icon {
+	padding-left: 10px;
+}
+
+#dashboard_my_bookmarks .content-bookmarks-icon:before {
+	font-size: 12px;
+	padding-right:5px;
+	top:6px;
+}
+
+li.current .content-bookmarks-icon:before {
+	color: #FFFBCC;
+}
+
+.wp-list-table .content-bookmarks-icon span {
+	display: none;
+}
+
+#adv-settings .content-bookmarks-icon {
+	display: inline-block;
+}
+
+#adv-settings .content-bookmarks-icon:before {
+	display: none;
+}
+
+.content-bookmarks-spinner.spinner.is-active {
+	margin: 2px 5px !important;
+	background-size: 18px 18px;
+	width: 18px;
+	height: 18px;
+}
+
+.wp-list-table a.content-bookmarks-icon {
+	box-shadow: none;
+	outline: none;
+}
+
+.wp-list-table a.content-bookmarks-icon.is-processing {
+	display: none;
+}
+
+.wp-list-table td.bookmark.column-bookmark::before {
+	content: '' !important;
+}	
+
+.content-bookmarks-hidden {
+	display: none !important;
+}
+
+.wp-submenu li.content-bookmarks-group {
+	position: relative;
+}
+
+.content-bookmarks-group__toggle {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	padding-right: 28px !important;
+	text-decoration: none;
+}
+
+.content-bookmarks-group__toggle:after {
+	content: "\f139";
+	font-family: dashicons;
+	font-size: 18px;
+	line-height: 1;
+	margin-left: auto;
+	position: absolute;
+	right: 10px;
+	padding: 0;
+	top: 5px;
+}
+
+.content-bookmarks-group.has-current-bookmark > .content-bookmarks-group__toggle {
+	font-weight: 600;
+}
+
+.content-bookmarks-group .content-bookmarks-submenu {
+	display: none;
+	position: absolute;
+	top: -1px;
+	left: 100%;
+	margin: 0;
+	padding: 6px 0;
+	list-style: none;
+	min-width: 200px;
+	background: #23282d;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	z-index: 1000;
+}
+
+.content-bookmarks-group:hover > .content-bookmarks-submenu,
+.content-bookmarks-group.is-open > .content-bookmarks-submenu,
+.content-bookmarks-group:focus-within > .content-bookmarks-submenu {
+	display: block;
+}
+
+.content-bookmarks-group .content-bookmarks-submenu li {
+	margin: 0;
+}
+
+.content-bookmarks-group .content-bookmarks-submenu li a {
+	display: block;
+	padding: 6px 16px;
+}
+
+.content-bookmarks-group .content-bookmarks-submenu li.current > a {
+	background: #0073aa;
+	color: #fff;
+}

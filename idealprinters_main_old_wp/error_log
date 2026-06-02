@@ -1,0 +1,25 @@
+[22-Oct-2025 08:35:37 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/idealprinters/public_html/wp-content/maintenance.php on line 16
+[22-Oct-2025 08:35:37 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/idealprinters/public_html/wp-content/maintenance.php on line 17
+[22-Oct-2025 08:35:37 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/idealprinters/public_html/wp-content/maintenance.php on line 18
+[24-Dec-2025 23:25:08 UTC] Cron reschedule event error for hook: litespeed_task_imgoptm_pull, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[24-Dec-2025 23:25:08 UTC] Cron unschedule event error for hook: litespeed_task_imgoptm_pull, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[24-Dec-2025 23:25:09 UTC] Cron reschedule event error for hook: litespeed_task_imgoptm_pull, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[27-Feb-2026 07:29:27 UTC] PHP Warning:  fsockopen(): Unable to connect to node123.quic.cloud:443 (Connection timed out) in /home/idealprinters/public_html/wp-content/plugins/litespeed-cache/src/utility.cls.php on line 143
+[04-Mar-2026 07:44:29 UTC] PHP Warning:  require(/home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/tweaks/default-tweaks.php): Failed to open stream: No such file or directory in /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/tweaks/tweaks.php on line 155
+[04-Mar-2026 07:44:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/tweaks/default-tweaks.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/tweaks/tweaks.php:155
+Stack trace:
+#0 /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/tweaks/tweaks.php(280): ameTweakManager->registerEarlyTweaks()
+#1 /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/tweaks/tweaks.php(272): ameTweakManager->registerTweaks()
+#2 /home/idealprinters/public_html/wp-includes/class-wp-hook.php(341): ameTweakManager->onInit()
+#3 /home/idealprinters/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /home/idealprinters/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /home/idealprinters/public_html/wp-settings.php(742): do_action()
+#6 /home/idealprinters/public_html/wp-config.php(85): require_once('/home/idealprin...')
+#7 /home/idealprinters/public_html/wp-load.php(50): require_once('/home/idealprin...')
+#8 /home/idealprinters/public_html/wp-cron.php(46): require_once('/home/idealprin...')
+#9 {main}
+  thrown in /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/tweaks/tweaks.php on line 155
+[25-Mar-2026 02:59:00 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/idealprinters/public_html/wp-settings.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/idealprinters/public_html/wp-settings.php on line 34

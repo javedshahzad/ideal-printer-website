@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+(function () {
+  var version = new Date().getTime();
+  window.IP_VERSION = version;
+
+  function withVersion(url) {
+    if (!url || /^https?:\/\//i.test(url) || url.indexOf("//") === 0) {
+      return url;
+    }
+    return url.split("?")[0] + "?v=" + version;
+  }
+
+  window.ipVersionLocalAsset = withVersion;
+
+  window.ipLoadScript = function (src) {
+    var script = document.createElement("script");
+    script.src = withVersion(src);
+    script.async = false;
+    document.head.appendChild(script);
+    return script;
+  };
+
+  window.ipLoadStylesheet = function (href) {
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = withVersion(href);
+    document.head.appendChild(link);
+    return link;
+  };
+})();
+</script>
+    <meta charset="UTF-8">
+    <title>Contact Us | Ideal Printers</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="robots" content="index, follow"/>
+    <meta name="description" content="Contact Ideal Printers for quotes, project inquiries, and printing support. Reach us by email, phone, WhatsApp, or visit our location in Lahore."/>
+    <meta name="keywords" content="Contact Ideal Printers, Ideal Printers Lahore, Printing Quote, Printing Contact"/>
+
+    <link rel="icon" type="image/png" href="favicon.png?v=2">
+    <link rel="canonical" href="https://idealprinters.pk/contact-us.html"/>
+
+    <link rel="shortcut icon" href="favicon.png?v=2" type="image/png">
+    <link rel="apple-touch-icon" href="images/print&marketing/apple-touch-icon.webp">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/print&marketing/apple-touch-icon-57x57.webp">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/print&marketing/apple-touch-icon-72x72.webp">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/print&marketing/apple-touch-icon-76x76.webp">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/print&marketing/apple-touch-icon-114x114.webp">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/print&marketing/apple-touch-icon-120x120.webp">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/print&marketing/apple-touch-icon-144x144.webp">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/print&marketing/apple-touch-icon-152x152.webp">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script>ipLoadStylesheet("fontawesome/css/fontawesome.css");</script>
+    <script>ipLoadStylesheet("fontawesome/css/brands.css");</script>
+    <script>ipLoadStylesheet("fontawesome/css/solid.css");</script>
+    <script>ipLoadStylesheet("css/navbar.css");</script>
+    <script>ipLoadStylesheet("css/footer.css");</script>
+    <script>ipLoadStylesheet("css/main.css");</script>
+    <script>ipLoadStylesheet("css/category-page.css");</script>
+    <script>ipLoadStylesheet("css/about-us.css");</script>
+    <script>ipLoadStylesheet("css/social-icon.css");</script>
+    <script>ipLoadStylesheet("owl-carousel/owl.carousel.css");</script>
+    <script>ipLoadStylesheet("owl-carousel/owl.theme.css");</script>
+    <script>ipLoadScript("owl-carousel/jquery-1.9.1.min.js");</script>
+    <script>ipLoadScript("owl-carousel/owl.carousel.js");</script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <style>
+        .contact-hero {
+            padding-top: 20px;
+        }
+        .contact-hero .row {
+            width: 100%;
+        }
+        .contact-hero .col-md-8 {
+            display: flex;
+        }
+        .contact-hero .mySwiper {
+            width: 100%;
+            height: 100%;
+            min-height: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .contact-hero swiper-slide {
+            height: 100%;
+        }
+        .contact-hero swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: left center;
+        }
+        .banner-cls {
+            border-radius: 10px;
+        }
+        .contact-hero .quote-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 18px;
+            padding: 24px;
+        }
+        .contact-info-section {
+            background-color: #f3f3f3;
+            margin-top: 30px;
+        }
+        @media screen and (max-width: 768px) {
+            .contact-hero .col-md-8 {
+                display: block;
+            }
+            .contact-hero .mySwiper {
+                height: auto;
+                min-height: 0;
+            }
+            .contact-hero swiper-slide img {
+                height: auto;
+                object-fit: fill;
+            }
+            .banner-cls {
+                aspect-ratio: 354/207;
+            }
+            .contact-hero .quote-card {
+                margin-top: 20px;
+                padding: 20px;
+            }
+        }
+    </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4TYBN3V0MS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4TYBN3V0MS');
+</script>
+
+
+<script>ipLoadStylesheet("css/ideal-theme.css");</script>
+<style>
+/* CAROUSEL BUG FIX — buttons must be below sticky navbar */
+.contact-container { z-index: 1080 !important; position: sticky !important; top: 0 !important; }
+.carousel-next, .carousel-prev, .carousel-btns,
+.owl-nav .owl-prev, .owl-nav .owl-next { position: relative !important; z-index: 10 !important; }
+.carousel-container { position: relative; z-index: 1; }
+</style>
+</head>
+<body>
+    <div id="navbar-div" class="contact-container"></div>
+
+    <section class="contact-page-intro">
+        <div class="container text-center py-4">
+            <h3>Contact Us</h3>
+            <p>We would love to hear from you! Whether you have a question, need a quote, or want to discuss a project, feel free to contact us.</p>
+        </div>
+    </section>
+
+    <section class="contact-hero">
+        <div class="container">
+            <div class="row p-2 m-auto align-items-stretch">
+                <div class="col-md-8">
+                    <swiper-container class="mySwiper" autoplay-delay="3000" loop="true" pagination="true">
+                        <swiper-slide>
+                            <img class="banner-cls" src="images/campaign/banner/signages_wall_dislay_dubai.jpg" alt="Printing and branding solutions">
+                        </swiper-slide>
+                        <swiper-slide>
+                            <img class="banner-cls" src="images/campaign/banner/signages_wall_dislay_dubai_2.jpg" alt="Printing and signage support">
+                        </swiper-slide>
+                    </swiper-container>
+                </div>
+                <div id="inquiry-form" class="col-md-4">
+                    <div class="quote-card">
+                        <h3>Get your <strong class="text-primary">FREE</strong> Quote</h3>
+                        <br>
+                        <form role="form" method="post" id="reused_form" style="width: 100%; padding: 0px;">
+                            <div class="style5">
+                                <div class="form-group">
+                                    <input type="text" required name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" required name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="mobile" class="form-control" required name="mobile" id="mobile" placeholder="Your Contact Number" data-rule="minlen:4" data-msg="Please enter your contact number" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required name="requirement" id="requirement" placeholder="Required Item" data-rule="minlen:4" data-msg="Regarding Item" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" required name="message" rows="4" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12" style="left: 0px; top: 0px; width: 200px; height: auto;">
+                                        <div style="width: 120px"><img src="form/captcha.jpg" id="captcha_image"/></div>
+                                        <span><a id="captcha_reload" href="#"><font size="2">Refresh</font></a></span>
+                                        <div class="form-group">
+                                            <span><font size="2">Enter above text here:</font></span>
+                                            <input type="text" class="form-control" required id="captcha" name="captcha" style="width: 200px">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div><button type="submit" class="btn btn-template-main">Send Message</button></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="contact-info-section">
+        <div class="container">
+            <div style="text-align: center; padding: 20px;">
+                <div class="about-grid-2">
+                    <div class="about-content bg-white mt-3" style="border: none;">
+                        <div class="contact-info mb-3">
+                            <a href="mailto:idealprinter41@gmail.com"><i class="fa fa-envelope"></i> idealprinter41@gmail.com</a> <br>
+                            <span>Email your question, and we will respond promptly during the work hours.</span>
+                        </div>
+                        <div class="contact-info mb-3">
+                            <a href="https://api.whatsapp.com/send?phone=+923004602749&text=Hello!"><i class="fa-brands fa-whatsapp"></i> +92 336 717 7533</a><br>
+                            <span>Chat with our representative</span>
+                        </div>
+                        <div class="contact-info mb-3">
+                            <a href="tel:+924235979285"><i class="fa fa-phone"></i> +92 42 3597 9285</a><br>
+                            <a href="tel:+923004602749"><i class="fa fa-phone"></i> +92 30 0460 2749</a><br>
+                            <span>Reach out to us with your inquiry, and we will respond as quickly.</span>
+                        </div>
+                        <div class="contact-info mb-3">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Ideal+Printers" target="_blank"> <i class="fa-solid fa-location-dot"></i> Location</a><br>
+                            <p style="font-weight: 700; font-size: large;">Ideal Printers</p>
+                            <span>G-2, Al-Rehman Centre, Shama Metro Station, 70-Ferozepur Road, Lahore</span>
+                        </div>
+                        <div class="contact-info mb-3">
+                            <h5 class="mb-2 text-primary">Working Hours</h5>
+                            <p class="mb-0" style="font-size: 11pt">9:00 am to 2:00 pm
+                                <br>
+                                3:00 pm to 10:00 pm
+                                <br>
+                                2:00 pm to 3:00 pm (Lunch Break)
+                                <br>
+                                Monday to Sunday
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-content bg-white mt-3" style="border: none;">
+                        <div class="img-fluid">
+                            <iframe src="https://www.google.com/maps?q=Ideal+Printers,+G-2,+Al-Rehman+Centre,+Shama+Metro+Station,+Lahore&output=embed" width="100%" height="440" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer-div"></div>
+    <div id="bottumDiv" class="bottomMenu show"></div>
+
+    <script>ipLoadScript("scripts/navbar.js");</script>
+    <script>ipLoadScript("scripts/signages.js");</script>
+    <script>ipLoadScript("form/form.js");</script>
+
+
+</body>
+</html>
+

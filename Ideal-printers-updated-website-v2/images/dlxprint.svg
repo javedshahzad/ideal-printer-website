@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 405 107">
+  <rect width="405" height="107" fill="white"/>
+  <rect x="2" y="2" width="70" height="103" rx="4" ry="4" fill="none" stroke="#1a3a6e" stroke-width="3"/>
+  <rect x="8" y="8" width="58" height="91" rx="3" ry="3" fill="none" stroke="#1a3a6e" stroke-width="1.5"/>
+  <path d="M22 22 L22 85 L50 85 C65 85 72 75 72 55 C72 35 65 22 50 22 Z" fill="#4a7ab5"/>
+  <path d="M35 38 L35 72 L48 72 C57 72 62 65 62 55 C62 45 57 38 48 38 Z" fill="white"/>
+  <path d="M60 22 L80 22 L80 50 C80 50 85 38 95 30 C105 22 120 22 120 22 L90 53 L122 85 L104 85 L80 58 L80 85 L60 85 Z" fill="#1a3a6e"/>
+  <text x="140" y="67" font-family="Arial Black, sans-serif" font-size="48" font-weight="900" fill="#1a3a6e" letter-spacing="2">IDEAL</text>
+  <text x="160" y="92" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#666" letter-spacing="6">PRINTERS</text>
+</svg>

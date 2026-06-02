@@ -1,0 +1,1047 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Berona - Template kit for printing & design services",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/point.moxcreative.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/berona\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Gallery",
+            "screenshot": "screenshots\/gallery.jpg",
+            "source": "templates\/gallery.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/berona\/template-kit\/gallery\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Project",
+            "screenshot": "screenshots\/project.jpg",
+            "source": "templates\/project.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/berona\/template-kit\/project\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/berona\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/berona\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/berona\/template-kit\/our-team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing Plan",
+            "screenshot": "screenshots\/pricing-plan.jpg",
+            "source": "templates\/pricing-plan.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/berona\/template-kit\/pricing-plan\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/berona\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/berona\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Berona - Error 404",
+            "screenshot": "screenshots\/berona-error-404.jpg",
+            "source": "templates\/berona-error-404.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/berona\/?elementor_library=berona-error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Berona - Archive Blog",
+            "screenshot": "screenshots\/berona-archive-blog.jpg",
+            "source": "templates\/berona-archive-blog.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/berona\/?elementor_library=berona-archive-blog",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Berona - Single Post",
+            "screenshot": "screenshots\/berona-single-post.jpg",
+            "source": "templates\/berona-single-post.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/berona\/?elementor_library=berona-single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Berona - Footer",
+            "screenshot": "screenshots\/berona-footer.png",
+            "source": "templates\/berona-footer.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/berona\/?elementor_library=berona-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Berona - Header",
+            "screenshot": "screenshots\/berona-header.png",
+            "source": "templates\/berona-header.json",
+            "preview_url": "https:\/\/point.moxcreative.com\/berona\/?elementor_library=berona-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.5.9",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Material Design Icons for Page Builders",
+            "version": "1.4.2",
+            "file": "material-design-icons-for-elementor\/material-design-icons-for-elementor.php",
+            "author": "Photon WP"
+        },
+        {
+            "name": "Skyboot custom icons for Elementor - Elementor Icons",
+            "version": "1.0.4",
+            "file": "skyboot-custom-icons-for-elementor\/skyboot-custom-icons-for-elementor.php",
+            "author": "Skybootstrap"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.7.0",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "designers-discussing-color-palette.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/designers-discussing-color-palette-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 117946,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-9FWT6A4"
+        },
+        {
+            "filename": "man-working-at-the-printing-manufacturing.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/man-working-at-the-printing-manufacturing-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 85411,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VQPRXH9"
+        },
+        {
+            "filename": "memphis_1.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/memphis_1.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 15129,
+            "dimensions": [
+                126,
+                126
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "printing-operator-at-work.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/printing-operator-at-work-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                }
+            ],
+            "filesize": 82824,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-5M2ZP6F"
+        },
+        {
+            "filename": "flat-layout-of-digital-advertising-brochures-and-phone-with-financial-diagram.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/flat-layout-of-digital-advertising-brochures-and-phone-with-financial-diagram-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 79488,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-R6WHKM8"
+        },
+        {
+            "filename": "abstract-packaging-branding-for-aromatic-brands-with-design-space.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/abstract-packaging-branding-for-aromatic-brands-with-design-space-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 116900,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-3WEN72T"
+        },
+        {
+            "filename": "marketing-research-of-new-product.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/marketing-research-of-new-product-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 124500,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-H8SWXZH"
+        },
+        {
+            "filename": "coworking-colleagues-with-printed-poster.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/coworking-colleagues-with-printed-poster-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 91608,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PSX2ZHN"
+        },
+        {
+            "filename": "young-creative-team-having-a-meeting-in-casual-office.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/young-creative-team-having-a-meeting-in-casual-office-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 125932,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PNDCV7D"
+        },
+        {
+            "filename": "code-lab.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/code-lab-800x211.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 18477,
+            "dimensions": [
+                2280,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "earth-2.0.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/earth-2.0-800x190.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 54681,
+            "dimensions": [
+                2520,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "fox-hub.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/fox-hub-800x187.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 15676,
+            "dimensions": [
+                2566,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "ideaa.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/ideaa-800x271.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 31228,
+            "dimensions": [
+                1770,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "muzica.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/muzica-800x200.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 26718,
+            "dimensions": [
+                2400,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "velocity-9.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/velocity-9-800x206.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 38343,
+            "dimensions": [
+                2333,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "stationery-mock-up-on-wooden-background-responsive-design-template-branding-identity-mock-up.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/stationery-mock-up-on-wooden-background-responsive-design-template-branding-identity-mock-up-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 124242,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-7SSZM8E"
+        },
+        {
+            "filename": "colors-and-a-color-book.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/colors-and-a-color-book-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 184142,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-F545FHB"
+        },
+        {
+            "filename": "mockup-business-brand-template-on-light-gray-background-space-for-text.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/mockup-business-brand-template-on-light-gray-background-space-for-text-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing Plan"
+                }
+            ],
+            "filesize": 30883,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-5ZXN6HF"
+        },
+        {
+            "filename": "creative-designer-with-laptop.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/creative-designer-with-laptop-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 116433,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PZYJVEV"
+        },
+        {
+            "filename": "designers-printing-booklets.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/designers-printing-booklets-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 82048,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ETDNRCQ"
+        },
+        {
+            "filename": "cute-pastel-stripes-business-card.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/cute-pastel-stripes-business-card-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/project.json",
+                    "name": "Project"
+                }
+            ],
+            "filesize": 91253,
+            "dimensions": [
+                1080,
+                1079
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-BQW226K"
+        },
+        {
+            "filename": "img_9.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/img_9.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 95843,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-cheerful-european-female-with-satisfie-W73EUUE"
+        },
+        {
+            "filename": "img_1.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/img_1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 63016,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pleased-cheerful-redhaired-male-with-pleasant-smil-CCXAYZL"
+        },
+        {
+            "filename": "img_4.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/img_4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 71472,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/horizontal-shot-of-pleasant-looking-ginger-young-e-F9MBGAR"
+        },
+        {
+            "filename": "img_8.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/img_8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 64765,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/waist-up-shot-of-handsome-self-confident-cheerful--BUTM9PX"
+        },
+        {
+            "filename": "img_3.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/img_3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 70638,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/happy-confident-male-entrepreneur-with-postive-smi-BDAU9DK"
+        },
+        {
+            "filename": "img_6.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/img_6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 85457,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/joyful-freckled-teenager-wears-round-transparent-g-EPRUCGN"
+        },
+        {
+            "filename": "img_7.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/img_7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 45428,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/optimistic-positive-handsome-bearded-man-FXXXGY4"
+        },
+        {
+            "filename": "img_5.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/img_5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 111607,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/carefree-attractive-girl-with-pleasant-look-enjoys-4GXJZTE"
+        },
+        {
+            "filename": "customer-service-operators-at-work.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/customer-service-operators-at-work-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 71842,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-YPEN35E"
+        },
+        {
+            "filename": "filling-up-a-paper-into-the-printing-machine.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/filling-up-a-paper-into-the-printing-machine-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/berona-archive-blog.json",
+                    "name": "Berona - Archive Blog"
+                }
+            ],
+            "filesize": 71876,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-H987ETX"
+        },
+        {
+            "filename": "background-of-bluish-tones-and-cold-and-dark-atmosphere-with-columns-and-lines-of-wavy-geometry-.jpg",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/background-of-bluish-tones-and-cold-and-dark-atmosphere-with-columns-and-lines-of-wavy-geometry--800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/berona-footer.json",
+                    "name": "Berona - Footer"
+                }
+            ],
+            "filesize": 58166,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-QFDTSCU"
+        },
+        {
+            "filename": "logo_berona_w.png",
+            "thumbnail_url": "http:\/\/point.moxcreative.com\/berona\/wp-content\/uploads\/sites\/8\/2022\/05\/logo_berona_w.png",
+            "templates": [
+                {
+                    "source": "templates\/berona-footer.json",
+                    "name": "Berona - Footer"
+                },
+                {
+                    "source": "templates\/berona-header.json",
+                    "name": "Berona - Header"
+                }
+            ],
+            "filesize": 4607,
+            "dimensions": [
+                290,
+                78
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

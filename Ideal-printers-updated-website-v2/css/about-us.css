@@ -1,0 +1,131 @@
+
+          .three-section{
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+          }
+          .three-section img{
+            height: auto;
+            width: 70px;
+            margin: auto;
+          }
+          .three-section > div{
+            width: fit-content;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+            padding: 20px;
+            text-align: start;
+            text-align: center;
+            }
+          .three-section p{
+            color: gray;
+            color: white;
+            font-size: smaller;
+          }
+          .a-color a{
+            color: #000000;
+            font-weight: 600;
+          }
+
+          .about-grid {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+          }
+
+          .about-grid .about-content {
+            border: 1px solid #ddd;
+            padding: 20px;
+          }
+          
+
+          .about-grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+          }
+
+          .about-grid-2 .about-content {
+            border: 1px solid #ddd;
+            padding: 20px;
+          }
+
+          .about-content img {
+            /* border-radius: 50%; */
+            /* width: 200px;
+            height: 200px; */
+            margin-bottom: 15px;
+          }
+
+          .contact-info {
+            text-align: left;
+          }
+
+          .contact-info a {
+            color: #4b82bf;
+            font-weight: 500;
+            font-size: large;
+          }
+
+          .newsletter {
+            text-align: center;
+            background-color: #F3F3F3;
+            padding: 20px;
+          }
+
+          .newsletter input {
+            width: 40%;
+            margin: auto;
+          }
+          
+
+
+          
+          @media (min-width:200px) and (max-width: 769px) {
+            .three-section{
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            flex-direction: column;
+          }
+          .three-section p{
+            color: gray;
+            color: white;
+            font-size: x-small;
+          }
+          .three-section h5{
+            font-size: medium;
+          }
+          
+          .about-grid {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+          }
+
+          .about-grid .about-content {
+            border: 1px solid #ddd;
+            padding: 20px;
+          }
+
+          .about-grid-2 {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+          }
+
+          .about-grid-2 .about-content {
+            border: 1px solid #ddd;
+            padding: 20px;
+          }
+
+          .newsletter input {
+            width: 100%;
+            margin: auto;
+          }
+
+          }

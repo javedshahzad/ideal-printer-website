@@ -1,0 +1,56 @@
+[04-Mar-2026 07:44:29 UTC] PHP Fatal error:  Uncaught Error: Interface "YahnisElsts\AdminMenuEditor\ImportExport\ameBasicExportableModule" not found in /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/metaboxes/ameMetaBoxEditor.php:12
+Stack trace:
+#0 /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/metaboxes/load.php(11): require()
+#1 /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/includes/menu-editor-core.php(541): include('/home/idealprin...')
+#2 /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/includes/menu-editor-core.php(1623): WPMenuEditor->load_modules()
+#3 /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/includes/menu-editor-core.php(3453): WPMenuEditor->load_custom_menu()
+#4 /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras.php(1683): WPMenuEditor->get_virtual_caps()
+#5 /home/idealprinters/public_html/wp-includes/class-wp-hook.php(341): wsMenuEditorExtras->prepare_virtual_caps_for_user()
+#6 /home/idealprinters/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#7 /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/includes/menu-editor-core.php(4773): apply_filters()
+#8 /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/includes/menu-editor-core.php(4751): WPMenuEditor->update_virtual_cap_cache()
+#9 /home/idealprinters/public_html/wp-includes/class-wp-hook.php(339): WPMenuEditor->update_current_user_cache()
+#10 /home/idealprinters/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#11 /home/idealprinters/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#12 /home/idealprinters/public_html/wp-includes/pluggable.php(48): do_action()
+#13 /home/idealprinters/public_html/wp-includes/user.php(3792): wp_set_current_user()
+#14 /home/idealprinters/public_html/wp-includes/pluggable.php(70): _wp_get_current_user()
+#15 /home/idealprinters/public_html/wp-includes/pluggable.php(1259): wp_get_current_user()
+#16 /home/idealprinters/public_html/wp-content/plugins/the-post-grid/app/RtTpg.php(214): is_user_logged_in()
+#17 /home/idealprinters/public_html/wp-includes/class-wp-hook.php(341): RtTpg->on_plugins_loaded()
+#18 /home/idealprinters/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#19 /home/idealprinters/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#20 /home/idealprinters/public_html/wp-settings.php(593): do_action()
+#21 /home/idealprinters/public_html/wp-config.php(85): require_once('/home/idealprin...')
+#22 /home/idealprinters/public_html/wp-load.php(50): require_once('/home/idealprin...')
+#23 /home/idealprinters/public_html/wp-admin/admin.php(35): require_once('/home/idealprin...')
+#24 /home/idealprinters/public_html/wp-admin/themes.php(10): require_once('/home/idealprin...')
+#25 {main}
+  thrown in /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/metaboxes/ameMetaBoxEditor.php on line 12
+[04-Mar-2026 07:44:31 UTC] PHP Fatal error:  Uncaught Error: Interface "YahnisElsts\AdminMenuEditor\QuickSearch\ItemSearchEngine" not found in /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/quick-search/database.php:609
+Stack trace:
+#0 /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/quick-search/quick-search.php(582): require_once()
+#1 /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/quick-search/quick-search.php(214): YahnisElsts\AdminMenuEditor\QuickSearch\SearchModule->getDbAdapter()
+#2 /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/quick-search/quick-search.php(167): YahnisElsts\AdminMenuEditor\QuickSearch\SearchModule->preloadSearchableItems()
+#3 /home/idealprinters/public_html/wp-includes/class-wp-hook.php(341): YahnisElsts\AdminMenuEditor\QuickSearch\SearchModule->enqueueGlobalAdminDependencies()
+#4 /home/idealprinters/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/idealprinters/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#6 /home/idealprinters/public_html/wp-admin/admin-header.php(123): do_action()
+#7 /home/idealprinters/public_html/wp-admin/plugins.php(637): require_once('/home/idealprin...')
+#8 {main}
+  thrown in /home/idealprinters/public_html/wp-content/plugins/admin-menu-editor-pro/extras/modules/quick-search/database.php on line 609
+[04-Mar-2026 07:45:25 UTC] PHP Fatal error:  Uncaught Error: Class "ElementorPro\Core\Editor\Editor" not found in /home/idealprinters/public_html/wp-content/plugins/elementor-pro/plugin.php:489
+Stack trace:
+#0 /home/idealprinters/public_html/wp-content/plugins/elementor-pro/plugin.php(150): ElementorPro\Plugin->__construct()
+#1 /home/idealprinters/public_html/wp-content/plugins/elementor-pro/plugin.php(533): ElementorPro\Plugin::instance()
+#2 /home/idealprinters/public_html/wp-content/plugins/elementor-pro/elementor-pro.php(78): require('/home/idealprin...')
+#3 /home/idealprinters/public_html/wp-includes/class-wp-hook.php(341): elementor_pro_load_plugin()
+#4 /home/idealprinters/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#5 /home/idealprinters/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#6 /home/idealprinters/public_html/wp-settings.php(593): do_action()
+#7 /home/idealprinters/public_html/wp-config.php(85): require_once('/home/idealprin...')
+#8 /home/idealprinters/public_html/wp-load.php(50): require_once('/home/idealprin...')
+#9 /home/idealprinters/public_html/wp-admin/admin.php(35): require_once('/home/idealprin...')
+#10 /home/idealprinters/public_html/wp-admin/plugins.php(10): require_once('/home/idealprin...')
+#11 {main}
+  thrown in /home/idealprinters/public_html/wp-content/plugins/elementor-pro/plugin.php on line 489
