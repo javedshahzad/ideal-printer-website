@@ -749,29 +749,31 @@ background: #4b82bf;
   --brand-border: rgba(75, 130, 191, 0.25);
 }
 
-/* Navbar dark modernization */
+/* Navbar light theme */
 .contact-container {
-  background: #111111 !important;
-  border-bottom: 1px solid rgba(75, 130, 191, 0.20) !important;
+  background: #ffffff !important;
+  border-bottom: 1px solid rgba(75, 130, 191, 0.15) !important;
 }
-.navbar-container {
-  background-color: #111111 !important;
+.navbar-container,
+.navbar,
+.ip-topnav-bar {
+  background-color: #eef3f9 !important;
 }
-.navbar {
-  background-color: #111111 !important;
+.navbar a,
+.ip-hlink {
+  color: #1a3f6e !important;
 }
-.navbar a {
-  color: #E0E0E0 !important;
-}
-.navbar a:hover {
-  color: #4b82bf !important;
+.navbar a:hover,
+.ip-hlink:hover {
+  color: #214f86 !important;
 }
 .nav-contact {
-  background: #111111 !important;
+  background: transparent !important;
 }
-.navbar .nav-item:hover .nav-link {
-  background-color: #4b82bf !important;
-  color: #111111 !important;
+.navbar .nav-item:hover .nav-link,
+.ip-hlink.ip-active {
+  background-color: rgba(75, 130, 191, 0.14) !important;
+  color: #1a3f6e !important;
 }
 .dropdown-menu {
   background: #1A1A1A !important;
@@ -804,7 +806,7 @@ background: #4b82bf;
   background: linear-gradient(135deg, #4b82bf, #1a3f6e) !important;
   box-shadow: 0 4px 15px rgba(75, 130, 191, 0.35) !important;
   border: none !important;
-  color: #111 !important;
+  color: #fff !important;
   font-weight: 700 !important;
 }
 .btn-template-main:hover {

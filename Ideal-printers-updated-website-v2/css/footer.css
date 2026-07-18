@@ -92,7 +92,7 @@
     display: none; 
     position:fixed; 
     bottom: calc(var(--ip-bottom-bar-h, 72px) + 76px); 
-    right: 20px; 
+    right: 19px; 
     z-index: 99; 
     border: none; 
     outline: none; 
@@ -101,7 +101,7 @@
     box-shadow: 0 4px 14px rgba(33,79,134,0.40);
     border-radius: 50%;
     cursor: pointer; 
-    padding: 9px 15px;
+    padding: 4px 10px;
     font-size: 25px; 
   }
   

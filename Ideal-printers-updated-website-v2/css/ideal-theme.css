@@ -12,6 +12,8 @@
   --ip-blue-soft:  rgba(75,130,191,0.13);
   --ip-blue-border: rgba(75,130,191,0.28);
   --ip-grad-nav:   linear-gradient(90deg, #122c52 0%, #214f86 50%, #1a3f6e 100%);
+  --ip-header-top-bg: #ffffff;
+  --ip-header-nav-bg: #eef3f9;
   --ip-grad-main:  linear-gradient(135deg, #4b82bf 0%, #214f86 50%, #122c52 100%);
   --ip-grad-footer: linear-gradient(135deg, #122c52 0%, #1a3f6e 60%, #214f86 100%);
   --ip-grad-bg:    linear-gradient(160deg, #e8f0fb 0%, #d0e3f5 40%, #b8d4ef 100%);
@@ -26,72 +28,82 @@ body {
 }
 
 /* ──────────────────────────────────────────
-   NAVBAR — Deep blue gradient, single menu
+   NAVBAR — Light header for logo contrast
    ────────────────────────────────────────── */
 .contact-container {
   position: sticky !important;
   top: 0 !important;
   z-index: 1080 !important;
-  background: var(--ip-grad-nav) !important;
-  border-bottom: 2px solid rgba(255,255,255,0.12) !important;
-  box-shadow: 0 4px 24px rgba(12,30,56,0.30) !important;
+  background: var(--ip-header-top-bg) !important;
+  border-bottom: 1px solid rgba(26, 63, 110, 0.10) !important;
+  box-shadow: 0 2px 14px rgba(26, 63, 110, 0.08) !important;
   height: auto !important;
 }
-.navbar-container {
-  background: var(--ip-grad-nav) !important;
+.navbar-container,
+.ip-topnav-bar {
+  background: var(--ip-header-nav-bg) !important;
+  border-top: 1px solid rgba(26, 63, 110, 0.06);
 }
 .navbar {
   background: transparent !important;
 }
 .navbar a,
-.nav-link {
-  color: rgba(255,255,255,0.90) !important;
+.nav-link,
+.ip-hlink {
+  color: var(--ip-blue-3) !important;
   font-weight: 500 !important;
 }
 .dropdown-toggle {padding: 10px;}
 .navbar a:hover,
-.nav-link:hover {
-  color: #ffffff !important;
+.nav-link:hover,
+.ip-hlink:hover {
+  color: var(--ip-blue-2) !important;
 }
 .nav-contact {
   background: transparent !important;
 }
 .nav-contact .contact-div,
 .nav-contact .contact-div a,
-.whatsapp-icon,
-.nav-contact i {
-  color: rgba(255,255,255,0.88) !important;
+.whatsapp-icon {
+  color: var(--ip-blue-3) !important;
 }
-.nav-contact .contact-div a:hover { color: #fff !important; }
+.nav-contact i {
+  color: #fff;
+}
+.nav-contact .contact-div a:hover { color: var(--ip-blue-2) !important; }
 .nav-contact .social-icon a {
-  color: rgba(255,255,255,0.75) !important;
-  border: 1px solid rgba(255,255,255,0.30) !important;
+  color: var(--ip-blue-2) !important;
+  border: 1px solid rgba(26, 63, 110, 0.18) !important;
   border-radius: 50%;
   padding: 3px 6px;
   transition: all 0.22s;
 }
 .nav-contact .social-icon a:hover {
-  background: rgba(255,255,255,0.18) !important;
-  color: #fff !important;
+  background: rgba(75, 130, 191, 0.12) !important;
+  color: var(--ip-blue-3) !important;
 }
 
-/* Nav item hover – same light blue as Home background */
+/* Nav item hover */
 .navbar .nav-item:hover .nav-link,
-.home-link:hover {
-  background: rgba(75,130,191,0.28) !important;
-  color: #ffffff !important;
+.home-link:hover,
+.ip-hlink:hover {
+  background: rgba(75, 130, 191, 0.12) !important;
+  color: var(--ip-blue-2) !important;
   border-radius: 6px !important;
 }
 
 /* Home button active state */
-.home-btn a {
-  background: rgba(75,130,191,0.20) !important;
+.home-btn a,
+.ip-hlink.ip-active {
+  background: rgba(75, 130, 191, 0.16) !important;
   border-radius: 6px;
-  color: #fff !important;
+  color: var(--ip-blue-3) !important;
+  font-weight: 600 !important;
 }
-.home-btn a:hover {
-  background: rgba(75,130,191,0.38) !important;
-  color: #fff !important;
+.home-btn a:hover,
+.ip-hlink.ip-active:hover {
+  background: rgba(75, 130, 191, 0.24) !important;
+  color: var(--ip-blue-2) !important;
 }
 
 /* ── Single Hamburger fix — hide JS-injected one ── */
@@ -99,8 +111,8 @@ body {
 
 /* Original hamburger toggler — keep & style */
 .navbar-toggler {
-    background: rgba(255, 255, 255, 0.12) !important;
-    border: 1.5px solid rgba(255, 255, 255, 0.40) !important;
+    background: rgba(26, 63, 110, 0.06) !important;
+    border: 1.5px solid rgba(26, 63, 110, 0.16) !important;
     border-radius: 8px !important;
     padding: 4px 0px !important;
     margin-top: 6px !important;
@@ -109,15 +121,15 @@ body {
     width: 40px;
 }
 .navbar-toggler:hover {
-  background: rgba(255,255,255,0.22) !important;
-  border-color: rgba(255,255,255,0.65) !important;
+  background: rgba(75, 130, 191, 0.12) !important;
+  border-color: rgba(26, 63, 110, 0.28) !important;
 }
 .navbar-toggler-icon {
-  filter: invert(1) !important;
+  filter: none !important;
 }
 /* Hamburger lines inside original toggler */
 .hamburger .line {
-  background: #ffffff !important;
+  background: var(--ip-blue-3) !important;
 }
 
 /* ── DROPDOWN ── */
@@ -338,10 +350,24 @@ span[style*="background-color: #4b82bf"] {
 a, button { transition: all 0.28s ease !important; }
 
 /* ── RESPONSIVE ── */
+@media (max-width: 991px) {
+  .contact-container {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: 1090 !important;
+    height: auto !important;
+  }
+}
+
 @media (max-width: 820px) {
-  .contact-container { z-index: 1080 !important; height: auto !important; }
-  .navbar-container { background: var(--ip-grad-nav) !important; }
-  .navbar a { color: rgba(255,255,255,0.90) !important; }
+  .contact-container { z-index: 1090 !important; height: auto !important; background: #ffffff !important; }
+  .navbar-container,
+  .ip-topnav-bar { background: #ffffff !important; }
+  .navbar a,
+  .ip-hlink { color: var(--ip-blue-3) !important; }
   .dropdown-menu {
     background: #fff !important;
     border-top: 3px solid var(--ip-blue-1) !important;
