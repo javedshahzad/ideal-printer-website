@@ -1,3 +1,4 @@
+/** Local asset cache version: scripts/global-version.js — run `node tools/sync-global-version.mjs` after bumping. */
 
 function navbar(){
   var navbarDiv = document.getElementById("navbar-div");
@@ -802,6 +803,33 @@ function initBottomContactBar() {
   bottomBar.classList.add("show");
   syncBottomBarLayout();
   bindBottomBarLayoutSync();
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.body.style.transition = " all .45s";
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.documentElement.style.transition = " all .45s";
+}
+
+// Resolve dynamically because footer/buttons are injected after script load.
+function scrollFunction() {
+  var mybutton = document.getElementById("back-to-top");
+  if (!mybutton) {
+    return;
+  }
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+window.addEventListener("scroll", scrollFunction, { passive: true });
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", scrollFunction);
+} else {
+  scrollFunction();
 }
 
 function syncBottomBarLayout() {
@@ -5448,23 +5476,3 @@ if (document.readyState === "loading") {
   initSiteChrome();
 }
 
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.body.style.transition=" all .5s"
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    document.documentElement.style.transition=" all .5s"
-  }
-  // Get the button:
-  let mybutton = document.getElementById("back-to-top");
-  // mybutton.style.color ="cyan"
-  // When the user scrolls down 20px from the top of the document, show the button
-  window.onscroll = function() {scrollFunction()};
-  
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  }

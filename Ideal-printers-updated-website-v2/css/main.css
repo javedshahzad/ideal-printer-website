@@ -13,6 +13,9 @@
        }
    
 }
+.swiper-button-next{
+  z-index: 1 !important;
+}
 
 .CurrencySymbol {
     font-family: inherit;
@@ -874,11 +877,7 @@ background: #4b82bf;
   color: #111 !important;
 }
 
-/* Back to top button */
-#back-to-top {
-  background-color: #4b82bf !important;
-  color: #111 !important;
-}
+
 
 /* Breadcrumb */
 .breadcrumb-item + .breadcrumb-item::before {

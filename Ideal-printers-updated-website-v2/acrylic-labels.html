@@ -3,38 +3,7 @@
 
 <!-- Source:/acrylic-labels.html , Wed, 18 Mar 2026 14:51:06 GMT -->
 <head>
-<script>
-(function () {
-  var version = new Date().getTime();
-  window.IP_VERSION = version;
-
-  function withVersion(url) {
-    if (!url || /^https?:\/\//i.test(url) || url.indexOf("//") === 0) {
-      return url;
-    }
-    return url.split("?")[0] + "?v=" + version;
-  }
-
-  window.ipVersionLocalAsset = withVersion;
-
-  window.ipLoadScript = function (src) {
-    var script = document.createElement("script");
-    script.src = withVersion(src);
-    script.async = false;
-    document.head.appendChild(script);
-    return script;
-  };
-
-  window.ipLoadStylesheet = function (href) {
-    var link = document.createElement("link");
-    link.rel = "stylesheet";
-    link.href = withVersion(href);
-    document.head.appendChild(link);
-    return link;
-  };
-})();
-</script>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <title>Premium Acrylic Labels in Lahore, Pakistan | Ideal Printers</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="robots" content="index, follow"/>
@@ -83,26 +52,26 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <!-- <script src="https://kit.fontawesome.com/3fc6c263c1.js" crossorigin="anonymous"></script> -->
-    <script>ipLoadStylesheet("fontawesome/css/fontawesome.css");</script>
-    <script>ipLoadStylesheet("fontawesome/css/brands.css");</script>
-    <script>ipLoadStylesheet("fontawesome/css/solid.css");</script>
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css?v=1.0.12">
+    <link rel="stylesheet" href="fontawesome/css/brands.css?v=1.0.12">
+    <link rel="stylesheet" href="fontawesome/css/solid.css?v=1.0.12">
 
-    <script>ipLoadStylesheet("css/navbar.css");</script>
-    <script>ipLoadStylesheet("css/footer.css");</script>
-    <script>ipLoadStylesheet("css/main.css");</script>
-    <script>ipLoadStylesheet("css/product-page.css");</script>
-    <!-- <script>ipLoadStylesheet("flickity/flickity.min.css");</script>
-    <script>ipLoadScript("flickity/flickity.pkgd.min.js");</script> -->
-    <script>ipLoadStylesheet("owl-carousel/owl.carousel.css");</script>
-    <script>ipLoadStylesheet("owl-carousel/owl.theme.css");</script>
+    <link rel="stylesheet" href="css/navbar.css?v=1.0.12">
+    <link rel="stylesheet" href="css/footer.css?v=1.0.12">
+    <link rel="stylesheet" href="css/main.css?v=1.0.12">
+    <link rel="stylesheet" href="css/product-page.css?v=1.0.12">
+    <!-- <link rel="stylesheet" href="flickity/flickity.min.css?v=1.0.12">
+    <script src="flickity/flickity.pkgd.min.js?v=1.0.12"></script> -->
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css?v=1.0.12">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css?v=1.0.12">
     <!-- Default Theme -->
-    <script>ipLoadScript("owl-carousel/jquery-1.9.1.min.js");</script>
+    <script src="owl-carousel/jquery-1.9.1.min.js?v=1.0.12"></script>
     <!--  jQuery 1.7+  -->
-    <script>ipLoadScript("owl-carousel/owl.carousel.js");</script>
+    <script src="owl-carousel/owl.carousel.js?v=1.0.12"></script>
     <!-- thumbnail carousel -->
     <!-- jQuery 1.8 or later, 33 KB -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-	  <script>ipLoadStylesheet("css/lite-yt-embed.css");</script>
+	  <link rel="stylesheet" href="css/lite-yt-embed.css?v=1.0.12">
 
     <!-- Fotorama from CDNJS, 19 KB -->
     <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
@@ -112,8 +81,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
      <!-- lightbox -->
-    <script>ipLoadStylesheet("lightbox/lightbox.css");</script>
-    <script>ipLoadScript("lightbox/lightbox.js");</script>
+    <link rel="stylesheet" href="lightbox/lightbox.css?v=1.0.12">
+    <script src="lightbox/lightbox.js?v=1.0.12"></script>
 
     
 <!-- Google tag (gtag.js) -->
@@ -340,10 +309,10 @@
 }
   </script>
 <!--JQuery CND Script-->
-        <script>ipLoadScript("../code.jquery.com/jquery-3.6.0.min.js");</script>
+        <script src="../code.jquery.com/jquery-3.6.0.min.js?v=1.0.12"></script>
         <!--JQuery CND End-->
 
-<script>ipLoadStylesheet("css/ideal-theme.css");</script>
+<link rel="stylesheet" href="css/ideal-theme.css?v=1.0.12">
 <style>
 /* CAROUSEL BUG FIX — buttons must be below sticky navbar */
 .contact-container { z-index: 1080 !important; position: sticky !important; top: 0 !important; }
@@ -703,13 +672,7 @@
   <div id="bottumDiv" class="bottomMenu show">
    
   </div>
-<!-- <button onclick="topFunction()" id="back-to-top" title="Go to top">
-  <i class="fa-solid fa-chevron-up"></i>
-</button>
-  -->
-<!-- <button class="icon-bar"  type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Quick Inquiry
-</button> -->
+
 
 <!-- Button trigger modal -->
 <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -767,11 +730,11 @@ var swiper = new Swiper(".mySwiper", {
 
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.js"></script>
-<script>ipLoadScript("scripts/product-page.js");</script>
-<script>ipLoadScript("scripts/navbar.js");</script>
-<script>ipLoadScript("form/form.js");</script>
-<script>ipLoadScript("scripts/signages.js");</script>
-<script>ipLoadScript("scripts/lite-yt-embed.js");</script>
+<script src="scripts/product-page.js?v=1.0.12"></script>
+<script src="scripts/navbar.js?v=1.0.12"></script>
+<script src="form/form.js?v=1.0.12"></script>
+<script src="scripts/signages.js?v=1.0.12"></script>
+<script src="scripts/lite-yt-embed.js?v=1.0.12"></script>
 
 <!-- Source:/acrylic-labels.html , Wed, 18 Mar 2026 14:51:07 GMT -->
 </html>

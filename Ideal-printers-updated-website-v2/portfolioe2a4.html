@@ -3,38 +3,7 @@
 
 <!-- Source:/portfolio.html?tab=flags , Wed, 18 Mar 2026 15:02:00 GMT -->
 <head>
-<script>
-(function () {
-  var version = new Date().getTime();
-  window.IP_VERSION = version;
-
-  function withVersion(url) {
-    if (!url || /^https?:\/\//i.test(url) || url.indexOf("//") === 0) {
-      return url;
-    }
-    return url.split("?")[0] + "?v=" + version;
-  }
-
-  window.ipVersionLocalAsset = withVersion;
-
-  window.ipLoadScript = function (src) {
-    var script = document.createElement("script");
-    script.src = withVersion(src);
-    script.async = false;
-    document.head.appendChild(script);
-    return script;
-  };
-
-  window.ipLoadStylesheet = function (href) {
-    var link = document.createElement("link");
-    link.rel = "stylesheet";
-    link.href = withVersion(href);
-    document.head.appendChild(link);
-    return link;
-  };
-})();
-</script>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <title>Our Work | Print Shop in Lahore | Quality Printing Near You</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="robots" content="index, follow"/>
@@ -70,28 +39,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
     <!-- <script src="https://kit.fontawesome.com/3fc6c263c1.js" crossorigin="anonymous"></script> -->
-    <script>ipLoadStylesheet("fontawesome/css/fontawesome.css");</script>
-    <script>ipLoadStylesheet("fontawesome/css/brands.css");</script>
-    <script>ipLoadStylesheet("fontawesome/css/solid.css");</script>
-        <script>ipLoadStylesheet("css/index.css");</script>
-    <script>ipLoadStylesheet("css/navbar.css");</script>
-    <script>ipLoadStylesheet("css/footer.css");</script>
-    <script>ipLoadStylesheet("css/main.css");</script>
-    <script>ipLoadStylesheet("css/category-page.css");</script>
-    <script>ipLoadStylesheet("css/about-us.css");</script>
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css?v=1.0.12">
+    <link rel="stylesheet" href="fontawesome/css/brands.css?v=1.0.12">
+    <link rel="stylesheet" href="fontawesome/css/solid.css?v=1.0.12">
+        <link rel="stylesheet" href="css/index.css?v=1.0.12">
+    <link rel="stylesheet" href="css/navbar.css?v=1.0.12">
+    <link rel="stylesheet" href="css/footer.css?v=1.0.12">
+    <link rel="stylesheet" href="css/main.css?v=1.0.12">
+    <link rel="stylesheet" href="css/category-page.css?v=1.0.12">
+    <link rel="stylesheet" href="css/about-us.css?v=1.0.12">
 
     
 
     <!-- flickity -->
-    <!-- <script>ipLoadStylesheet("flickity/flickity.min.css");</script>
-    <script>ipLoadScript("flickity/flickity.pkgd.min.js");</script> -->
-    <script>ipLoadStylesheet("owl-carousel/owl.carousel.css");</script>
-    <script>ipLoadStylesheet("owl-carousel/owl.theme.css");</script>
+    <!-- <link rel="stylesheet" href="flickity/flickity.min.css?v=1.0.12">
+    <script src="flickity/flickity.pkgd.min.js?v=1.0.12"></script> -->
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css?v=1.0.12">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css?v=1.0.12">
     <!-- Default Theme -->
-    <script>ipLoadScript("owl-carousel/jquery-1.9.1.min.js");</script>
+    <script src="owl-carousel/jquery-1.9.1.min.js?v=1.0.12"></script>
     <!--  jQuery 1.7+  -->
-    <!-- <script>ipLoadScript("assets/owl-carousel/owl.carousel.js");</script> -->
-    <script>ipLoadScript("owl-carousel/owl.carousel.js");</script>
+    <!-- <script src="assets/owl-carousel/owl.carousel.js?v=1.0.12"></script> -->
+    <script src="owl-carousel/owl.carousel.js?v=1.0.12"></script>
 
     <!-- Swiper JS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
@@ -101,17 +70,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
      
 
-    <script>ipLoadStylesheet("css/lite-yt-embed.css");</script>
+    <link rel="stylesheet" href="css/lite-yt-embed.css?v=1.0.12">
 
     <!-- lightbox -->
-     <script>ipLoadStylesheet("lightbox/lightbox.css");</script>
-     <script>ipLoadScript("lightbox/lightbox.js");</script>
+     <link rel="stylesheet" href="lightbox/lightbox.css?v=1.0.12">
+     <script src="lightbox/lightbox.js?v=1.0.12"></script>
 
        
     <!-- splide js -->
-    <script>ipLoadStylesheet("../cdn.jsdelivr.net/npm/%40splidejs/splide%404.1.3/dist/css/splide.min.css");</script>
+    <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/%40splidejs/splide%404.1.3/dist/css/splide.min.css?v=1.0.12">
 <!--JQuery CND Script-->
-        <script>ipLoadScript("../code.jquery.com/jquery-3.6.0.min.js");</script>
+        <script src="../code.jquery.com/jquery-3.6.0.min.js?v=1.0.12"></script>
         <!--JQuery CND End-->
       
       
@@ -386,7 +355,7 @@
 </script>
 
 
-<script>ipLoadStylesheet("css/ideal-theme.css");</script>
+<link rel="stylesheet" href="css/ideal-theme.css?v=1.0.12">
 <style>
 /* CAROUSEL BUG FIX — buttons must be below sticky navbar */
 .contact-container { z-index: 1080 !important; position: sticky !important; top: 0 !important; }
@@ -442,7 +411,7 @@
     <div id="bottumDiv" class="bottomMenu show">
     </div>
 
-    <script>ipLoadScript("../cdn.jsdelivr.net/npm/%40splidejs/splide%404.1.3/dist/js/splide.min.js");</script>
+    <script src="../cdn.jsdelivr.net/npm/%40splidejs/splide%404.1.3/dist/js/splide.min.js?v=1.0.12"></script>
 
     
  <!-- JavaScript for filtering -->
@@ -5905,14 +5874,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 </body>
-<script>ipLoadScript("../cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js");</script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js?v=1.0.12"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.js"></script>
-<script>ipLoadScript("scripts/navbar.js");</script>
-<script>ipLoadScript("form/form.js");</script>
-<script>ipLoadScript("scripts/fabric_and_flags.js");</script>
-<!-- <script>ipLoadScript("scripts/footer.js");</script> -->
-<script>ipLoadScript("scripts/lite-yt-embed.js");</script>
+<script src="scripts/navbar.js?v=1.0.12"></script>
+<script src="form/form.js?v=1.0.12"></script>
+<script src="scripts/fabric_and_flags.js?v=1.0.12"></script>
+<!-- <script src="scripts/footer.js?v=1.0.12"></script> -->
+<script src="scripts/lite-yt-embed.js?v=1.0.12"></script>
 
 <!-- Source:/portfolio.html?tab=flags , Wed, 18 Mar 2026 15:02:00 GMT -->
 </html>

@@ -134,15 +134,6 @@ if(document.getElementById("footer-div") !== null && document.getElementById("fo
     </div>
   </div>
   </footer>
-  
-  
-  <button onclick="topFunction()" id="back-to-top" title="Go to top">
-    <i class="fa-solid fa-chevron-up"></i>
-  </button>
-  
-  <a href="https://api.whatsapp.com/send?phone=923004602749&text=Hello!" target="_blank"  id="fixed-whatsapp-icon" >
-  <i class="fa-brands fa-whatsapp"></i>
-  </a>
 
    <!-- <a href="https://api.whatsapp.com/send?phone=923004602749&text=Hello!" target="_blank"  id="fixed-whatsapp-icon" >
   <i class="fa-brands fa-whatsapp"></i>
@@ -167,32 +158,3 @@ if(document.getElementById("footer-div") !== null && document.getElementById("fo
         // console.log("remove", whatsappBtn)
       }
     }, 3000);
-  
-  
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.body.style.transition=" all .5s"
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    document.documentElement.style.transition=" all .5s"
-  }
-  // Get the button:
-  let mybutton = document.getElementById("back-to-top");
-  // mybutton.style.color ="cyan"
-  // When the user scrolls down 20px from the top of the document, show the button
-  window.onscroll = function() {scrollFunction()};
-  
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  }
-
-  
-
-
-
-
-

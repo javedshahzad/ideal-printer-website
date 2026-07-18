@@ -296,12 +296,7 @@ body {
 /* ──────────────────────────────────────────
    MISC UI ELEMENTS
    ────────────────────────────────────────── */
-#back-to-top {
-  background: var(--ip-grad-main) !important;
-  color: #fff !important;
-  box-shadow: 0 4px 14px rgba(33,79,134,0.40) !important;
-  border-radius: 50%;
-}
+
 .breadcrumb-item + .breadcrumb-item::before { color: var(--ip-blue-1) !important; }
 .breadcrumb-item a { color: var(--ip-blue-2) !important; }
 
