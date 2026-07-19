@@ -760,7 +760,7 @@ function ipEnsureFooterPlacement() {
 
 function getBottomContactBarHtml() {
   return `
-  <div class="bottumContent">
+  <div class="bottumContent ip-bottom-mobile-grid">
     <div class="ip-bottom-contacts">
       <a href="tel:+924235979285" class="ip-bottom-phone">
         <i class="fa fa-phone" aria-hidden="true"></i><span>+92 42 3597 9285</span>
@@ -768,7 +768,7 @@ function getBottomContactBarHtml() {
       <a href="tel:+923004602749" class="ip-bottom-phone">
         <i class="fa fa-phone" aria-hidden="true"></i><span>+92 30 0460 2749</span>
       </a>
-      <a href="mailto:idealprinter41@gmail.com" class="ip-bottom-email">
+      <a href="mailto:idealprinter41@gmail.com" class="ip-bottom-email" aria-label="Email idealprinter41@gmail.com" title="idealprinter41@gmail.com">
         <i class="fa fa-envelope" aria-hidden="true"></i><span>idealprinter41@gmail.com</span>
       </a>
     </div>
@@ -797,6 +797,11 @@ function initBottomContactBar() {
 
   if (!bottomBar.querySelector(".ip-bottom-contacts")) {
     bottomBar.innerHTML = getBottomContactBarHtml();
+  } else {
+    var bottomContent = bottomBar.querySelector(".bottumContent");
+    if (bottomContent) {
+      bottomContent.classList.add("ip-bottom-mobile-grid");
+    }
   }
 
   if (bottomBar.parentNode !== document.body) {
