@@ -13,9 +13,9 @@ function navbar(){
 
       <!-- Logo -->
       <div class="ip-sidebar-logo-wrap">
-        <a href="index.html" aria-label="Ideal Printers">
-          <img src="images/ideal-printers-logo-horizontal.png"
-               class="ip-sidebar-logo" alt="Ideal Printers">
+        <a href="index.html" aria-label="Ideal Printers & Packages">
+          <img src="images/ideal-printers-logo-horizontal.png?v=1.0.55"
+               class="ip-sidebar-logo" alt="Ideal Printers & Packages">
         </a>
                 <!-- Mobile hamburger (opens sidebar drawer) -->
       <div id="card-element" class="card">  
@@ -35,51 +35,51 @@ function navbar(){
         <ul class="ip-sidebar-list">
 
             <li class="ip-sidebar-item" data-fly="fly-digital_printing_services">
-              <a href="digital-printing-services.html" class="ip-sidebar-link">
+              <a href="print-and-marketing-solutions.html" class="ip-sidebar-link">
                 <i class="fa-solid fa-print"></i>
-                <span>Print &amp; Marketing</span>
+                <span>Print Studio</span>
                 <i class="fa-solid fa-chevron-right ip-sidebar-arrow"></i>
               </a>
             </li>
             <li class="ip-sidebar-item" data-fly="fly-fabric_and_fashion_printing">
-              <a href="fabric-and-fashion-printing.html" class="ip-sidebar-link">
+              <a href="fashion-and-textile-printing.html" class="ip-sidebar-link">
                 <i class="fa-solid fa-shirt"></i>
-                <span>Fashion &amp; Textile</span>
+                <span>Fashion Print</span>
                 <i class="fa-solid fa-chevron-right ip-sidebar-arrow"></i>
               </a>
             </li>
             <li class="ip-sidebar-item" data-fly="fly-office_store_branding_printing">
-              <a href="office-store-branding-printing.html" class="ip-sidebar-link">
+              <a href="workspace-and-store-branding.html" class="ip-sidebar-link">
                 <i class="fa-solid fa-store"></i>
-                <span>Office &amp; Store Branding</span>
+                <span>Workspace Branding</span>
                 <i class="fa-solid fa-chevron-right ip-sidebar-arrow"></i>
               </a>
             </li>
             <li class="ip-sidebar-item" data-fly="fly-signage_company_in">
-              <a href="signage-company-in.html" class="ip-sidebar-link">
+              <a href="custom-signage-solutions.html" class="ip-sidebar-link">
                 <i class="fa-solid fa-sign-hanging"></i>
-                <span>Signages</span>
+                <span>Signage Lab</span>
                 <i class="fa-solid fa-chevron-right ip-sidebar-arrow"></i>
               </a>
             </li>
             <li class="ip-sidebar-item" data-fly="fly-flags_printing_branding">
-              <a href="flags-printing-branding.html" class="ip-sidebar-link">
+              <a href="custom-flags-and-banners.html" class="ip-sidebar-link">
                 <i class="fa-solid fa-flag"></i>
-                <span>Flags</span>
+                <span>Flags &amp; Poles</span>
                 <i class="fa-solid fa-chevron-right ip-sidebar-arrow"></i>
               </a>
             </li>
             <li class="ip-sidebar-item" data-fly="fly-backdrop_stand">
-              <a href="backdrop-stand.html" class="ip-sidebar-link">
+              <a href="exhibition-backdrops-and-stands.html" class="ip-sidebar-link">
                 <i class="fa-solid fa-image"></i>
-                <span>Backdrops &amp; Exhibition</span>
+                <span>Exhibition Displays</span>
                 <i class="fa-solid fa-chevron-right ip-sidebar-arrow"></i>
               </a>
             </li>
             <li class="ip-sidebar-item" data-fly="fly-promotional_corporate_gifts">
-              <a href="promotional-corporate-gifts.html" class="ip-sidebar-link">
+              <a href="branded-gifts-and-packages.html" class="ip-sidebar-link">
                 <i class="fa-solid fa-gift"></i>
-                <span>Corporate Gifts &amp; Bags</span>
+                <span>Gifts &amp; Packages</span>
                 <i class="fa-solid fa-chevron-right ip-sidebar-arrow"></i>
               </a>
             </li>
@@ -93,7 +93,7 @@ function navbar(){
 
         <div class="ip-flyout" id="fly-digital_printing_services" role="navigation" aria-label="Print & Marketing submenu">
           <div class="ip-flyout-inner">
-            <a href="digital-printing-services.html" class="ip-flyout-title">Print & Marketing</a>
+            <a href="print-and-marketing-solutions.html" class="ip-flyout-title">Print Studio</a>
             <div class="ip-fly-cols">
               <div class="ip-fly-col"><p class="ip-fly-heading">Stationery & Corporate Identity</p>
 <a href="digital-business-cards.html" class="ip-fly-link">Business Cards</a>
@@ -152,7 +152,7 @@ function navbar(){
         </div>
         <div class="ip-flyout" id="fly-fabric_and_fashion_printing" role="navigation" aria-label="Fashion & Textile submenu">
           <div class="ip-flyout-inner">
-            <a href="fabric-and-fashion-printing.html" class="ip-flyout-title">Fashion & Textile</a>
+            <a href="fashion-and-textile-printing.html" class="ip-flyout-title">Fashion Print</a>
             <div class="ip-fly-cols">
               <div class="ip-fly-col"><p class="ip-fly-heading">Fashion</p>
 <a href="scarf-fashion.html" class="ip-fly-link">Scarf</a>
@@ -207,7 +207,7 @@ function navbar(){
         </div>
         <div class="ip-flyout" id="fly-office_store_branding_printing" role="navigation" aria-label="Office & Store Branding submenu">
           <div class="ip-flyout-inner">
-            <a href="office-store-branding-printing.html" class="ip-flyout-title">Office & Store Branding</a>
+            <a href="workspace-and-store-branding.html" class="ip-flyout-title">Workspace Branding</a>
             <div class="ip-fly-cols">
               <div class="ip-fly-col"><p class="ip-fly-heading">Frosted Sticker</p>
 <a href="frosted-glass-sticker.html#reverse_cut" class="ip-fly-link">Reverse Cut Frosted Sticker</a>
@@ -266,7 +266,7 @@ function navbar(){
         </div>
         <div class="ip-flyout" id="fly-signage_company_in" role="navigation" aria-label="Signages submenu">
           <div class="ip-flyout-inner">
-            <a href="signage-company-in.html" class="ip-flyout-title">Signages</a>
+            <a href="custom-signage-solutions.html" class="ip-flyout-title">Signage Lab</a>
             <div class="ip-fly-cols">
               <div class="ip-fly-col"><p class="ip-fly-heading">Sign Board / Signage</p>
 <a href="unlit-3d-signage.html" class="ip-fly-link">3D Signage (Unlit)</a>
@@ -312,7 +312,7 @@ function navbar(){
         </div>
         <div class="ip-flyout" id="fly-flags_printing_branding" role="navigation" aria-label="Flags submenu">
           <div class="ip-flyout-inner">
-            <a href="flags-printing-branding.html" class="ip-flyout-title">Flags</a>
+            <a href="custom-flags-and-banners.html" class="ip-flyout-title">Flags & Poles</a>
             <div class="ip-fly-cols">
               <div class="ip-fly-col"><p class="ip-fly-heading">Event & Branding Flags</p>
 <a href="sail_flags.html" class="ip-fly-link">Sail Flags</a>
@@ -356,7 +356,7 @@ function navbar(){
         </div>
         <div class="ip-flyout" id="fly-backdrop_stand" role="navigation" aria-label="Backdrops & Exhibition submenu">
           <div class="ip-flyout-inner">
-            <a href="backdrop-stand.html" class="ip-flyout-title">Backdrops & Exhibition</a>
+            <a href="exhibition-backdrops-and-stands.html" class="ip-flyout-title">Exhibition Displays</a>
             <div class="ip-fly-cols">
               <div class="ip-fly-col"><p class="ip-fly-heading">Standees</p>
 <a href="roll-ups-printing.html#rollup01" class="ip-fly-link">Rollup Banners</a>
@@ -367,18 +367,18 @@ function navbar(){
 <a href="banners-printing.html" class="ip-fly-link">Banners - PVC & Fabric</a>
 <a href="fence-banner-printing.html" class="ip-fly-link">Fence Banners</a>
 <a href="lama-standee-printing.html" class="ip-fly-link">Lama Stand</a>
-<a href="pop-out-banner-printing-in.html" class="ip-fly-link">Popout Banner / Spring A Board</a>
-<a href="toblerone-a-frame-printing-in.html" class="ip-fly-link">Toblerone Frame</a>
+<a href="pop-out-banner-printing.html" class="ip-fly-link">Popout Banner / Spring A Board</a>
+<a href="toblerone-a-frame-printing.html" class="ip-fly-link">Toblerone Frame</a>
 <a href="cutout-standee-printing.html" class="ip-fly-link">Cutout Standee</a>
 <p class="ip-fly-heading">Backdrops</p>
 <a href="pop-up-banner.html#curved" class="ip-fly-link">Pop Ups</a>
-</div><div class="ip-fly-col"><a href="fabric-pop-up-printing-in.html" class="ip-fly-link">Fabric Pop Ups</a>
-<a href="fabric-backdrop-printing-in.html#fabricstandee" class="ip-fly-link">Fabric Backdrop - Indoor</a>
-<a href="fabric-backdrop-printing-in.html#fabric-backdrop-outdoor" class="ip-fly-link">Fabric Backdrop - Outdoor</a>
-<a href="wooden-backdrop-printing-in.html" class="ip-fly-link">Wooden Backdrop</a>
-<a href="step-and-repeat-backdrop-printing-in.html" class="ip-fly-link">Step & Repeat Backdrop</a>
-<a href="fabric-backdrop-printing-in.html#fabric-backdrop-curved" class="ip-fly-link">Curved Backdrop</a>
-<a href="backlit-backdrop-printing-in.html" class="ip-fly-link">Backlit Backdrop</a>
+</div><div class="ip-fly-col"><a href="fabric-pop-up-printing.html" class="ip-fly-link">Fabric Pop Ups</a>
+<a href="fabric-backdrop-printing.html#fabricstandee" class="ip-fly-link">Fabric Backdrop - Indoor</a>
+<a href="fabric-backdrop-printing.html#fabric-backdrop-outdoor" class="ip-fly-link">Fabric Backdrop - Outdoor</a>
+<a href="wooden-backdrop-printing.html" class="ip-fly-link">Wooden Backdrop</a>
+<a href="step-and-repeat-backdrop-printing.html" class="ip-fly-link">Step & Repeat Backdrop</a>
+<a href="fabric-backdrop-printing.html#fabric-backdrop-curved" class="ip-fly-link">Curved Backdrop</a>
+<a href="backlit-backdrop-printing.html" class="ip-fly-link">Backlit Backdrop</a>
 <a href="led-screen-rental.html" class="ip-fly-link">LED Screen</a>
 <a href="balloon-decorators.html" class="ip-fly-link">Balloon  Decorators</a>
 <a href="photo-booth.html" class="ip-fly-link">Magazine Photo Booth</a>
@@ -410,7 +410,7 @@ function navbar(){
         </div>
         <div class="ip-flyout" id="fly-promotional_corporate_gifts" role="navigation" aria-label="Corporate Gifts & Bags submenu">
           <div class="ip-flyout-inner">
-            <a href="promotional-corporate-gifts.html" class="ip-flyout-title">Corporate Gifts & Bags</a>
+            <a href="branded-gifts-and-packages.html" class="ip-flyout-title">Gifts & Packages</a>
             <div class="ip-fly-cols">
               <div class="ip-fly-col"><p class="ip-fly-heading">Office Essentials</p>
 <a href="pens-printing.html" class="ip-fly-link">Pens</a>
@@ -477,8 +477,8 @@ function navbar(){
          STICKY TOP HEADER  —  8 core page links only (no categories)
     ================================================================ -->
     <div class="nav-contact desktop-view">
-      <a href="index.html" aria-label="Ideal Printers">
-        <img src="images/ideal-printers-logo-horizontal.png" class="logo" alt="Ideal Printers Lahore">
+      <a href="index.html" aria-label="Ideal Printers & Packages">
+        <img src="images/ideal-printers-logo-horizontal.png?v=1.0.55" class="logo" alt="Ideal Printers & Packages Lahore">
       </a>
       <div class="search__section">
         <div class="searchBar">
@@ -514,9 +514,9 @@ function navbar(){
           </button>
 
           <!-- Mobile logo -->
-          <a class="mobile-view ip-mobile-logo" href="index.html" aria-label="Ideal Printers">
-            <img src="images/ideal-printers-logo-horizontal.png"
-              class="logo" alt="Ideal Printers Lahore">
+          <a class="mobile-view ip-mobile-logo" href="index.html" aria-label="Ideal Printers & Packages">
+            <img src="images/ideal-printers-logo-horizontal.png?v=1.0.55"
+              class="logo" alt="Ideal Printers & Packages Lahore">
           </a>
           
 
@@ -552,13 +552,13 @@ function navbar(){
                 </a>
               </li>
               <li class="nav-item">
-                <a href="about-company.html" class="nav-link ip-hlink">About Us</a>
+                <a href="about-ideal-printers-packages.html" class="nav-link ip-hlink">About Us</a>
               </li>
               <li class="nav-item">
-                <a href="portfolio.html" class="nav-link ip-hlink">Our Projects</a>
+                <a href="portfolio-1.html" class="nav-link ip-hlink">Our Projects</a>
               </li>
               <li class="nav-item">
-                <a href="digital-printing-services.html" class="nav-link ip-hlink">Printing Services</a>
+                <a href="print-and-marketing-solutions.html" class="nav-link ip-hlink">Printing Services</a>
               </li>
               <li class="nav-item">
                 <a href="faq.html" class="nav-link ip-hlink">FAQs</a>
@@ -585,6 +585,7 @@ function navbar(){
     ipWireLayout();
     ipEnsureFooterPlacement();
     initSiteFooter();
+    ipOrderTrustBeforeSeo();
     consolidateInquiryModal();
     bindInquiryModalFix();
     wireInquiryButtons();
@@ -599,6 +600,25 @@ function navbar(){
     setTimeout(syncMobileHeaderOffset, 100);
     setTimeout(syncMobileHeaderOffset, 500);
   }, 0);
+}
+
+/** Keep trust strip above SEO about block sitewide (matches product/category design). */
+function ipOrderTrustBeforeSeo() {
+  try {
+    var strips = document.querySelectorAll('div[style*="background-color: #f5f8fa"], div[style*="background-color:#f5f8fa"]');
+    strips.forEach(function (strip) {
+      if (!strip || !strip.parentNode) return;
+      var prev = strip.previousElementSibling;
+      if (!prev) return;
+      var isSeo =
+        (prev.classList && prev.classList.contains("carousel")) ||
+        (prev.querySelector && prev.querySelector(".about-us-container")) ||
+        (prev.classList && prev.classList.contains("about-us-container"));
+      if (isSeo) {
+        strip.parentNode.insertBefore(strip, prev);
+      }
+    });
+  } catch (e) { /* no-op */ }
 }
 
 function getSiteFooterHtml() {
@@ -618,11 +638,7 @@ function getSiteFooterHtml() {
         <h4 class="footer-heading mt-3">Follow Us</h4>
           <div class="social-custom" style="font-size: 18pt">
             <div class="d-inline-block mr-2"><a href="https://www.facebook.com/idealprinters41/" target="_blank"><i class="fa-brands fa-square-facebook facebook"></i></a></div>
-            <div class="d-inline-block mr-2"><a href="#" target="_blank"><i class="fa-brands fa-square-instagram instagram"></i></a></div>
             <div class="d-inline-block mr-2"><a href="https://twitter.com/Muhamma51494191" target="_blank"><i class="fa-brands fa-square-x-twitter twitter"></i></a></div>
-            <div class="d-inline-block mr-2"><a href="#" target="_blank"><i class="fa-brands fa-linkedin linkedin"></i></a></div>
-            <div class="d-inline-block mr-2"><a href="#" target="_blank"><i class="fa-brands fa-youtube youtube"></i></a></div>
-            <div class="d-inline-block mr-2"><a href="#" target="_blank"><i class="fa-brands fa-pinterest pinterest"></i></a></div>
           </div>
       </div>
       <div class="col-lg-3">
@@ -645,13 +661,11 @@ function getSiteFooterHtml() {
         <h4 class="footer-heading">Quick Links</h4>
           <ul class="list-inline">
                   <li><a href="index.html"><i class="fa fa-caret-right"></i> Home </a></li>
-                  <li><a href="portfolio.html"><i class="fa fa-caret-right"></i> Our Projects </a></li>
-                  <li><a href="about-company.html"><i class="fa fa-caret-right"></i> About Us </a></li>
-                  <li><a href="digital-printing-services.html"><i class="fa fa-caret-right"></i> Printing Services</a></li>
-                  <li><a href="blog.html"><i class="fa fa-caret-right"></i> Blogs </a></li>
+                  <li><a href="portfolio-1.html"><i class="fa fa-caret-right"></i> Our Projects </a></li>
+                  <li><a href="about-ideal-printers-packages.html"><i class="fa fa-caret-right"></i> About Us </a></li>
+                  <li><a href="print-and-marketing-solutions.html"><i class="fa fa-caret-right"></i> Printing Services</a></li>
                   <li><a href="faq.html"><i class="fa fa-caret-right"></i> FAQs </a></li>
                   <li><a href="terms.html"><i class="fa fa-caret-right"></i> Terms </a></li>
-                  <li><a href="career.html"><i class="fa fa-caret-right"></i> Careers </a></li>
                   <li><a href="privacy_policy.html"><i class="fa fa-caret-right"></i> Privacy </a></li>
                   <li><a href="contact-us.html"><i class="fa fa-caret-right"></i> Contact Us </a></li>
                 </ul>
@@ -678,48 +692,56 @@ function getSiteFooterHtml() {
   </div>
   <div class="modal ip-inquiry-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h2 class="modal-title fs-5 h3" id="exampleModalLabel">Inquiry Form</h2>
-          <button type="button" class="btn btn-close inquiry-close-btn" data-ip-inquiry-close aria-label="Close"></button>
+      <div class="modal-content ip-inquiry-card">
+        <div class="modal-header ip-inquiry-header">
+          <div class="ip-inquiry-heading">
+            <p class="ip-inquiry-eyebrow">Ideal Printers</p>
+            <h2 class="modal-title" id="exampleModalLabel">Inquiry Form</h2>
+            <p class="ip-inquiry-sub">Share your requirements — we’ll reply shortly.</p>
+          </div>
+          <button type="button" class="btn inquiry-close-btn" data-ip-inquiry-close aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form role="form" method="post" id="reused_form" style="width: 100%; padding: 0px;">
-          <div class="style5">
+          <form role="form" method="post" id="reused_form" class="ip-inquiry-form style5">
             <div class="form-group">
-              <input type="text" required name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <label class="ip-inquiry-label" for="name">Your Name</label>
+              <input type="text" required name="name" class="form-control" id="name" placeholder="Full name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" autocomplete="name" />
               <div class="validation"></div>
             </div>
-            <div class="form-group">
-              <input type="email" class="form-control" required name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="mobile" class="form-control" required name="mobile" id="mobile" placeholder="Your Contact Number" data-rule="minlen:4" data-msg="Please enter your contact number" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" required name="requirement" id="requirement" placeholder="Required Item" data-rule="minlen:4" data-msg="Regarding Item" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" required name="message" rows="4" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-              <div class="validation"></div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12" style="left: 0px; top: 0px; width: 200px; height: auto;">
-                <div style="width: 120px"><img src="form/captcha.jpg" id="captcha_image" alt="Captcha"/></div>
-                <span><a id="captcha_reload" href="#"><font size="2">Refresh</font></a></span>
-                <div class="form-group">
-                  <span><font size="2">Enter above text here:</font></span>
-                  <input type="text" class="form-control" required id="captcha" name="captcha" style="width: 200px">
-                </div>
+            <div class="ip-inquiry-grid">
+              <div class="form-group">
+                <label class="ip-inquiry-label" for="email">Email</label>
+                <input type="email" class="form-control" required name="email" id="email" placeholder="you@company.com" data-rule="email" data-msg="Please enter a valid email" autocomplete="email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <label class="ip-inquiry-label" for="mobile">Contact Number</label>
+                <input type="tel" class="form-control" required name="mobile" id="mobile" placeholder="03XX XXXXXXX" data-rule="minlen:4" data-msg="Please enter your contact number" autocomplete="tel" />
+                <div class="validation"></div>
               </div>
             </div>
-            <div>
-              <button type="submit" class="btn btn-template-main">Send Message</button></div>
+            <div class="form-group">
+              <label class="ip-inquiry-label" for="requirement">Subject / Service</label>
+              <input type="text" class="form-control" required name="requirement" id="requirement" placeholder="What do you need printed?" data-rule="minlen:4" data-msg="Regarding Item" />
+              <div class="validation"></div>
             </div>
-            </form>
+            <div class="form-group">
+              <label class="ip-inquiry-label" for="ip-inquiry-message">Message</label>
+              <textarea class="form-control" required name="message" id="ip-inquiry-message" rows="4" data-rule="required" data-msg="Please write something for us" placeholder="Quantity, size, deadline, or any details…"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="ip-inquiry-captcha">
+              <div class="ip-inquiry-captcha-tools">
+                <img src="form/captcha.jpg?v=1.0.55" id="captcha_image" alt="Captcha" width="140" height="44" />
+                <a id="captcha_reload" href="#" title="Refresh captcha" aria-label="Refresh captcha"><i class="fa-solid fa-rotate-right" aria-hidden="true"></i></a>
+              </div>
+              <div class="form-group ip-inquiry-captcha-field">
+                <label class="ip-inquiry-label" for="captcha">Security code</label>
+                <input type="text" class="form-control" required id="captcha" name="captcha" placeholder="Type the code shown" autocomplete="off" autocapitalize="characters" />
+              </div>
+            </div>
+            <button type="submit" class="btn btn-template-main ip-inquiry-submit">Send Message</button>
+          </form>
         </div>
       </div>
     </div>
@@ -778,11 +800,7 @@ function getBottomContactBarHtml() {
         <h6 class="ip-bottom-social-label">Follow Us</h6>
         <div class="ip-bottom-social-icons">
           <a href="https://www.facebook.com/idealprinters41/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-square-facebook facebook"></i></a>
-          <a href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-square-instagram instagram"></i></a>
           <a href="https://twitter.com/Muhamma51494191" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-square-x-twitter twitter"></i></a>
-          <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin linkedin"></i></a>
-          <a href="#" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube youtube"></i></a>
-          <a href="#" target="_blank" rel="noopener" aria-label="Pinterest"><i class="fa-brands fa-pinterest pinterest"></i></a>
         </div>
       </div>
     </div>
@@ -1513,19 +1531,19 @@ const search = navbarSearchRoot.querySelector('.searchBar');
 const results = [
     {
       "name": "Corporate Gifts",
-      "link": "promotional-corporate-gifts.html"
+      "link": "branded-gifts-and-packages.html"
     },
     {
       "name": "Flags",
-      "link": "flags-printing-branding.html"
+      "link": "custom-flags-and-banners.html"
     },
     {
       "name": "Backdrops",
-      "link": "backdrop-stand.html"
+      "link": "exhibition-backdrops-and-stands.html"
     },
     {
       "name": "Office & Store Branding",
-      "link": "office-store-branding-printing.html"
+      "link": "workspace-and-store-branding.html"
     },
     {
       "name": "Business cards",
@@ -1553,15 +1571,15 @@ const results = [
     },
     {
       "name": "Kraft Business Cards",
-      "link": "kraft-business-cards-in.html#kraft"
+      "link": "kraft-business-cards.html#kraft"
     },
     {
       "name": "Recycled Business Cards",
-      "link": "kraft-business-cards-in.html"
+      "link": "kraft-business-cards.html"
     },
     {
       "name": "Recycled Eco Friendly Business Cards",
-      "link": "kraft-business-cards-in.html#eco_friendly"
+      "link": "kraft-business-cards.html#eco_friendly"
     },
     {
       "name": "Classic - Conqueror Business Cards",
@@ -1697,7 +1715,7 @@ const results = [
     },
     {
       "name": "Seals",
-      "link": "digital-printing-services.html#seals"
+      "link": "print-and-marketing-solutions.html#seals"
     },
     {
       "name": "Self Ink Stamps",
@@ -1749,7 +1767,7 @@ const results = [
     },
     {
       "name": "Voucher Books",
-      "link": "digital-printing-services.html#voucherbooks"
+      "link": "print-and-marketing-solutions.html#voucherbooks"
     },
     {
       "name": "Invoice Books",
@@ -1777,7 +1795,7 @@ const results = [
     },
     {
       "name": "Brochures & Flyers",
-      "link": "digital-printing-services.html#brouchersandflyers"
+      "link": "print-and-marketing-solutions.html#brouchersandflyers"
     },
     {
       "name": "Brochures",
@@ -1841,7 +1859,7 @@ const results = [
     },
     {
       "name": "Crowd Promotions",
-      "link": "digital-printing-services.html#crowd_promotions"
+      "link": "print-and-marketing-solutions.html#crowd_promotions"
     },
     {
       "name": "Compliment Slips",
@@ -1949,7 +1967,7 @@ const results = [
     },
     {
       "name": "Fashion",
-      "link": "fabric-and-fashion-printing.html#fashion"
+      "link": "fashion-and-textile-printing.html#fashion"
     },
     {
       "name": "Textile Role Printing",
@@ -2133,7 +2151,7 @@ const results = [
     },
     {
       "name": "Lifestyle",
-      "link": "fabric-and-fashion-printing.html#lifestyle"
+      "link": "fashion-and-textile-printing.html#lifestyle"
     },
     {
       "name": "Armband",
@@ -2253,11 +2271,11 @@ const results = [
     },
     {
       "name": "Office & Store Branding",
-      "link": "office-store-branding-printing.html"
+      "link": "workspace-and-store-branding.html"
     },
     {
       "name": "Frosted Stickers",
-      "link": "office-store-branding-printing.html"
+      "link": "workspace-and-store-branding.html"
     },
     {
       "name": "Reverse Cut Frosted Sticker",
@@ -2281,7 +2299,7 @@ const results = [
     },
     {
       "name": "Window Branding",
-      "link": "office-store-branding-printing.html#window_branding"
+      "link": "workspace-and-store-branding.html#window_branding"
     },
     {
       "name": "Window Vinyl Lettering",
@@ -2313,7 +2331,7 @@ const results = [
     },
     {
       "name": "Floor Stickers",
-      "link": "office-store-branding-printing.html#floor_sticker"
+      "link": "workspace-and-store-branding.html#floor_sticker"
     },
     {
       "name": "Floor Graphics Stickers",
@@ -2337,7 +2355,7 @@ const results = [
     },
     {
       "name": "Wall Branding",
-      "link": "office-store-branding-printing.html#wallbranding"
+      "link": "workspace-and-store-branding.html#wallbranding"
     },
     {
       "name": "Wall Vinyl Lettering",
@@ -2357,7 +2375,7 @@ const results = [
     },
     {
       "name": "Wall Décor",
-      "link": "office-store-branding-printing.html#walldecor"
+      "link": "workspace-and-store-branding.html#walldecor"
     },
     {
       "name": "Wallpaper",
@@ -2385,7 +2403,7 @@ const results = [
     },
     {
       "name": "Wall Frames",
-      "link": "office-store-branding-printing.html#canvas"
+      "link": "workspace-and-store-branding.html#canvas"
     },
     {
       "name": "Canvas Frames",
@@ -2433,7 +2451,7 @@ const results = [
     },
     {
       "name": "Repositionable Cling",
-      "link": "office-store-branding-printing.html#repositionable_cling"
+      "link": "workspace-and-store-branding.html#repositionable_cling"
     },
     {
       "name": "Clear Static Cling",
@@ -2453,7 +2471,7 @@ const results = [
     },
     {
       "name": "Workplace",
-      "link": "office-store-branding-printing.html#workplace"
+      "link": "workspace-and-store-branding.html#workplace"
     },
     {
       "name": "Social Distancing Screen Divider",
@@ -2473,7 +2491,7 @@ const results = [
     },
     {
       "name": "Vehicle Graphics",
-      "link": "office-store-branding-printing.html#vehicle_graphics"
+      "link": "workspace-and-store-branding.html#vehicle_graphics"
     },
     {
       "name": "Car Door Branding",
@@ -2529,11 +2547,11 @@ const results = [
     },
     {
       "name": "All Signages",
-      "link": "signage-company-in.html"
+      "link": "custom-signage-solutions.html"
     },
     {
       "name": "3D Indoor / Outdoor Signage",
-      "link": "signage-company-in.html"
+      "link": "custom-signage-solutions.html"
     },
     {
       "name": "3D Signage (Unlit)",
@@ -2669,7 +2687,7 @@ const results = [
     },
     {
       "name": "Light Box Signage",
-      "link": "signage-company-in.html#lightbox"
+      "link": "custom-signage-solutions.html#lightbox"
     },
     {
       "name": "Flex Face Signs (Light Box)",
@@ -2777,7 +2795,7 @@ const results = [
     },
     {
       "name": "Direction / Wayfinding Signage",
-      "link": "signage-company-in.html#direction"
+      "link": "custom-signage-solutions.html#direction"
     },
     {
       "name": "Wayfinding Signage",
@@ -2926,7 +2944,7 @@ const results = [
     },
     {
       "name": "Self Standing Letters",
-      "link": "signage-company-in.html#selfstanding"
+      "link": "custom-signage-solutions.html#selfstanding"
     },
     {
       "name": "Metal Letters",
@@ -3046,7 +3064,7 @@ const results = [
     },
     {
       "name": "Name Plate",
-      "link": "signage-company-in.html#nameplate"
+      "link": "custom-signage-solutions.html#nameplate"
     },
     {
       "name": "Metal Name Plates",
@@ -3187,7 +3205,7 @@ const results = [
     },
     {
       "name": "Safety Signage",
-      "link": "signage-company-in.html#safety"
+      "link": "custom-signage-solutions.html#safety"
     },
     {
       "name": "Self-Standing Sign",
@@ -3255,7 +3273,7 @@ const results = [
     },
     {
       "name": "Labels",
-      "link": "signage-company-in.html#labels"
+      "link": "custom-signage-solutions.html#labels"
     },
     {
       "name": "Traffolyte / PVC / Acrylic Labels",
@@ -3319,11 +3337,11 @@ const results = [
     },
     {
       "name": "All Flags",
-      "link": "flags-printing-branding.html"
+      "link": "custom-flags-and-banners.html"
     },
     {
       "name": "Event & Branding Flags",
-      "link": "flags-printing-branding.html"
+      "link": "custom-flags-and-banners.html"
     },
     {
       "name": "Sail Flags",
@@ -3355,7 +3373,7 @@ const results = [
     },
     {
       "name": "Decorative Flags",
-      "link": "flags-printing-branding.html#decoration"
+      "link": "custom-flags-and-banners.html#decoration"
     },
     {
       "name": "Car Flags",
@@ -3391,7 +3409,7 @@ const results = [
     },
     {
       "name": "Event Gear",
-      "link": "flags-printing-branding.html#handheld"
+      "link": "custom-flags-and-banners.html#handheld"
     },
     {
       "name": "Pole Flags",
@@ -3415,7 +3433,7 @@ const results = [
     },
     {
       "name": "Outdoor Flags",
-      "link": "flags-printing-branding.html#outdoor"
+      "link": "custom-flags-and-banners.html#outdoor"
     },
     {
       "name": "Hoisting Flags",
@@ -3439,7 +3457,7 @@ const results = [
     },
     {
       "name": "Office Flags",
-      "link": "flags-printing-branding.html#office"
+      "link": "custom-flags-and-banners.html#office"
     },
     {
       "name": "Table Flags",
@@ -3499,11 +3517,11 @@ const results = [
     },
     {
       "name": "All Standees and Backdrops",
-      "link": "backdrop-stand.html"
+      "link": "exhibition-backdrops-and-stands.html"
     },
     {
       "name": "Popups, Rollups & Banners",
-      "link": "backdrop-stand.html"
+      "link": "exhibition-backdrops-and-stands.html"
     },
     {
       "name": "Pop Ups",
@@ -3527,19 +3545,19 @@ const results = [
     },
     {
       "name": "Fabric Pop Ups",
-      "link": "fabric-pop-up-printing-in.html"
+      "link": "fabric-pop-up-printing.html"
     },
     {
       "name": "Fabric Pop Up (Curved)",
-      "link": "fabric-pop-up-printing-in.html#fabric-popup-curved"
+      "link": "fabric-pop-up-printing.html#fabric-popup-curved"
     },
     {
       "name": "Backlit Fabric Pop Up (Straight)",
-      "link": "fabric-pop-up-printing-in.html#backlit-fabric-popup"
+      "link": "fabric-pop-up-printing.html#backlit-fabric-popup"
     },
     {
       "name": "Backlit Fabric Pop Up (Curved)",
-      "link": "fabric-pop-up-printing-in.html#backlit-fabric-popup-curved"
+      "link": "fabric-pop-up-printing.html#backlit-fabric-popup-curved"
     },
     {
       "name": "Rollup Banner",
@@ -3591,7 +3609,7 @@ const results = [
     },
     {
       "name": "Backlit Standee",
-      "link": "backdrop-stand.html#backlit"
+      "link": "exhibition-backdrops-and-stands.html#backlit"
     },
     {
       "name": "Snapfold Backlit Standee",
@@ -3603,55 +3621,55 @@ const results = [
     },
     {
       "name": "Backdrop & Standees",
-      "link": "backdrop-stand.html"
+      "link": "exhibition-backdrops-and-stands.html"
     },
     {
       "name": "Wooden Backdrop",
-      "link": "wooden-backdrop-printing-in.html"
+      "link": "wooden-backdrop-printing.html"
     },
     {
       "name": "Wooden Backdrop With Base",
-      "link": "wooden-backdrop-printing-in.html#with-base"
+      "link": "wooden-backdrop-printing.html#with-base"
     },
     {
       "name": "Mosaic Wall",
-      "link": "wooden-backdrop-printing-in.html#mosaic-wall"
+      "link": "wooden-backdrop-printing.html#mosaic-wall"
     },
     {
       "name": "Outdoor Heavy Duty Backdrop",
-      "link": "wooden-backdrop-printing-in.html#heavy-duty"
+      "link": "wooden-backdrop-printing.html#heavy-duty"
     },
     // {
     //   "name": "Wooden Self Standee",
-    //   "link": "wooden-backdrop-printing-in.html#self-standee"
+    //   "link": "wooden-backdrop-printing.html#self-standee"
     // },
     {
       "name": "Multi-Layered Backdrops",
-      "link": "wooden-backdrop-printing-in.html#multi-layered"
+      "link": "wooden-backdrop-printing.html#multi-layered"
     },
     {
       "name": "Arch Standee",
-      "link": "wooden-backdrop-printing-in.html#arch-standee"
+      "link": "wooden-backdrop-printing.html#arch-standee"
     },
     {
       "name": "Step and Repeat Backdrop - PVC",
-      "link": "step-and-repeat-backdrop-printing-in.html"
+      "link": "step-and-repeat-backdrop-printing.html"
     },
     {
       "name": "Step and Repeat Backdrop - Fabric",
-      "link": "step-and-repeat-backdrop-printing-in.html#fabric"
+      "link": "step-and-repeat-backdrop-printing.html#fabric"
     },
     {
       "name": "Fabric Backdrop Indoor",
-      "link": "fabric-backdrop-printing-in.html"
+      "link": "fabric-backdrop-printing.html"
     },
     {
       "name": "Fabric Standee Seamless",
-      "link": "fabric-backdrop-printing-in.html#fabricstandee"
+      "link": "fabric-backdrop-printing.html#fabricstandee"
     },
     {
       "name": "Fabric Backdrop Seamless",
-      "link": "fabric-backdrop-printing-in.html#fabricbackdrop"
+      "link": "fabric-backdrop-printing.html#fabricbackdrop"
     },
     {
       "name": "Totem Display Stand",
@@ -3663,11 +3681,11 @@ const results = [
     },
     {
       "name": "Fabric Backdrop Outdoor",
-      "link": "fabric-backdrop-printing-in.html#fabric-backdrop-outdoor"
+      "link": "fabric-backdrop-printing.html#fabric-backdrop-outdoor"
     },
     {
       "name": "Space Dividers",
-      "link": "fabric-backdrop-printing-in.html#space-dividers"
+      "link": "fabric-backdrop-printing.html#space-dividers"
     },
     {
       "name": "LED Screen Rental",
@@ -3679,39 +3697,39 @@ const results = [
     },
     {
       "name": "Round Fabric Backdrop ",
-      "link": "round-backdrop-printing-in.html"
+      "link": "round-backdrop-printing.html"
     },
     {
       "name": "Round Corporate backdrop ",
-      "link": "round-backdrop-printing-in.html#corporate"
+      "link": "round-backdrop-printing.html#corporate"
     },
     {
       "name": "Round Party Backdrop ",
-      "link": "round-backdrop-printing-in.html#party"
+      "link": "round-backdrop-printing.html#party"
     },
     {
       "name": "Spring A Board / Pop Out Banner",
-      "link": "pop-out-banner-printing-in.html"
+      "link": "pop-out-banner-printing.html"
     },
     {
       "name": "Toblerone Frame",
-      "link": "toblerone-a-frame-printing-in.html"
+      "link": "toblerone-a-frame-printing.html"
     },
     {
       "name": "Toblerone - Forex",
-      "link": "toblerone-a-frame-printing-in.html#forex"
+      "link": "toblerone-a-frame-printing.html#forex"
     },
     {
       "name": "Toblerone - Metal",
-      "link": "toblerone-a-frame-printing-in.html#metal"
+      "link": "toblerone-a-frame-printing.html#metal"
     },
     {
       "name": "Wooden Stand – Foldable",
-      "link": "toblerone-a-frame-printing-in.html#wooden_stand"
+      "link": "toblerone-a-frame-printing.html#wooden_stand"
     },
     {
       "name": "MDF Stand – Portable",
-      "link": "toblerone-a-frame-printing-in.html#mdf_stand"
+      "link": "toblerone-a-frame-printing.html#mdf_stand"
     },
     {
       "name": "Cutout Standee",
@@ -3739,11 +3757,11 @@ const results = [
     },
     {
       "name": "Backlit Displays",
-      "link": "backdrop-stand.html#backlit"
+      "link": "exhibition-backdrops-and-stands.html#backlit"
     },
     {
       "name": "Backlit Backdrop",
-      "link": "backlit-backdrop-printing-in.html"
+      "link": "backlit-backdrop-printing.html"
     },
     {
       "name": "Photo Booth",
@@ -3763,7 +3781,7 @@ const results = [
     },
     {
       "name": "Portable Display Standee",
-      "link": "backdrop-stand.html#standees"
+      "link": "exhibition-backdrops-and-stands.html#standees"
     },
     {
       "name": "Promotion Table",
@@ -3927,7 +3945,7 @@ const results = [
     },
     {
       "name": "Shell Scheme",
-      "link": "backdrop-stand.html#shell_scheme"
+      "link": "exhibition-backdrops-and-stands.html#shell_scheme"
     },
     {
       "name": "Island Backlit Shell Scheme",
@@ -3939,11 +3957,11 @@ const results = [
     },
     {
       "name": "All Corporate Gift & bags",
-      "link": "promotional-corporate-gifts.html"
+      "link": "branded-gifts-and-packages.html"
     },
     {
       "name": "Office Essentials",
-      "link": "promotional-corporate-gifts.html"
+      "link": "branded-gifts-and-packages.html"
     },
     {
       "name": "Pens",
@@ -4027,7 +4045,7 @@ const results = [
     },
     {
       "name": "Apparel",
-      "link": "promotional-corporate-gifts.html#apparel"
+      "link": "branded-gifts-and-packages.html#apparel"
     },
     {
       "name": "T-Shirts",
@@ -4303,7 +4321,7 @@ const results = [
     },
     {
       "name": "Drinkware",
-      "link": "promotional-corporate-gifts.html#drinkware"
+      "link": "branded-gifts-and-packages.html#drinkware"
     },
     {
       "name": "Mugs",
@@ -4607,7 +4625,7 @@ const results = [
     },
     {
       "name": "Event Disposables",
-      "link": "promotional-corporate-gifts.html#disposables"
+      "link": "branded-gifts-and-packages.html#disposables"
     },
     {
       "name": "Coffee Stencil",
@@ -4631,11 +4649,11 @@ const results = [
     },
     {
       "name": "Tech Products",
-      "link": "promotional-corporate-gifts.html#tech_products"
+      "link": "branded-gifts-and-packages.html#tech_products"
     },
     {
       "name": "Executive Kit",
-      "link": "promotional-corporate-gifts.html#kit"
+      "link": "branded-gifts-and-packages.html#kit"
     },
     {
       "name": "Wireless Power Banks",
@@ -4673,7 +4691,7 @@ const removedProductLinkPatterns = [
   "dining-table-cloth.html",
   "dining-table-placemat.html",
   "draw-string-pouches.html",
-  "fabric-and-fashion-printing.html",
+  "fashion-and-textile-printing.html",
   "fabric-printing-services.html",
   "fashion-wear.html",
   "hair-scarf-printing.html",
@@ -4703,8 +4721,8 @@ const removedProductLinkPatterns = [
   "pos-display-stand.html",
   "pop-up-banner.html#softcase-straight",
   "pop-up-banner.html#hardcase",
-  "pop-out-banner-printing-in.html",
-  "flags-printing-branding.html",
+  "pop-out-banner-printing.html",
+  "custom-flags-and-banners.html",
   "advertising_flags.html",
   "blade_flags.html",
   "body_flags.html",
@@ -5643,8 +5661,8 @@ function normalizeRecentProductLink(link) {
   }
 
   return link
-    .replace(/([\\/])([^\\/]+)-dubai\.html(?=([#?].*)?$)/i, "$1$2.html")
-    .replace(/([\\/])(advertising_flags|blade_flags|body_flags|car_desert_flags|car_flags|conference_flags|conference_hanging_flags|dashboard_flags|festival_flags|hand_held_flags|hand_waving_flags|hoisting_flags|l_shape_flags|pennant_flags|sail_flags|table_flags|tear_drop_flags|telescopic_flags|toothpick_flags|wall_mounted_flags)_dubai\.html(?=([#?].*)?$)/i, "$1$2.html");
+    .replace(/([\\/])([^\\/]+)-lahore\.html(?=([#?].*)?$)/i, "$1$2.html")
+    .replace(/([\\/])(advertising_flags|blade_flags|body_flags|car_desert_flags|car_flags|conference_flags|conference_hanging_flags|dashboard_flags|festival_flags|hand_held_flags|hand_waving_flags|hoisting_flags|l_shape_flags|pennant_flags|sail_flags|table_flags|tear_drop_flags|telescopic_flags|toothpick_flags|wall_mounted_flags)_lahore\.html(?=([#?].*)?$)/i, "$1$2.html");
 }
 
 function setRecommendProducts() {

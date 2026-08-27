@@ -1,0 +1,191 @@
+/* Ideal Printers & Packages — original brand system */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap');
+
+:root {
+  --orange: #f28c38;
+  --orange-deep: #d9721f;
+  --green: #409b7a;
+  --green-deep: #2f7a5f;
+  --slate: #3f4b5b;
+  --ink: #12171e;
+  --ink-soft: #1c2430;
+  --mist: #e8eef2;
+  --paper: #f7f4ef;
+  --white: #ffffff;
+  --muted: #8a96a5;
+  --line: rgba(255, 255, 255, 0.12);
+  --shadow: 0 24px 60px rgba(18, 23, 30, 0.28);
+  --radius: 18px;
+  --nav-h: 84px;
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'Outfit', sans-serif;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: 0;
+  background: none;
+}
+
+.container {
+  width: min(1180px, calc(100% - 2.5rem));
+  margin-inline: auto;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--orange);
+}
+
+.eyebrow::before {
+  content: '';
+  width: 28px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--orange), var(--green));
+}
+
+h1,
+h2,
+h3,
+.display {
+  font-family: var(--font-display);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  min-height: 50px;
+  padding: 0.85rem 1.45rem;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: transform 0.35s var(--ease), background 0.35s var(--ease), color 0.35s var(--ease), box-shadow 0.35s var(--ease);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--orange), var(--orange-deep));
+  color: var(--white);
+  box-shadow: 0 12px 30px rgba(242, 140, 56, 0.35);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px rgba(242, 140, 56, 0.45);
+}
+
+.btn-ghost {
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: var(--white);
+  backdrop-filter: blur(8px);
+}
+
+.btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.btn-dark {
+  background: var(--ink);
+  color: var(--white);
+}
+
+.btn-dark:hover {
+  background: var(--slate);
+  transform: translateY(-2px);
+}
+
+.section {
+  padding: clamp(4.5rem, 8vw, 7rem) 0;
+}
+
+.section-head {
+  max-width: 640px;
+  margin-bottom: 2.75rem;
+}
+
+.section-head h2 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  margin: 0.7rem 0 0.9rem;
+}
+
+.section-head p {
+  color: var(--slate);
+  font-size: 1.05rem;
+}
+
+.hero-brand {
+  animation: hero-rise 0.9s var(--ease) both;
+}
+
+.hero-lead {
+  animation: hero-rise 0.9s var(--ease) 0.12s both;
+}
+
+.hero-actions {
+  animation: hero-rise 0.9s var(--ease) 0.22s both;
+}
+
+@keyframes hero-rise {
+  from { opacity: 0; transform: translateY(22px); }
+  to { opacity: 1; transform: none; }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(36px);
+  transition: opacity 0.8s var(--ease), transform 0.8s var(--ease);
+}
+
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }

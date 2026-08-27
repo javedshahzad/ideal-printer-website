@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Connect | Ideal Printers & Packages</title>
+  <meta name="description" content="Connect with Ideal Printers & Packages to start a print or packaging project." />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="css/brand.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Ideal Printers home">
+        <img src="assets/logo.png" alt="Ideal Printers & Packages" />
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="our-studio.html">Our Studio</a></li>
+        <li><a href="craft-line.html">Craft Line</a></li>
+        <li><a href="showcase.html">Showcase</a></li>
+        <li><a class="active" href="connect.html">Connect</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="bg" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&w=1800&q=80" alt="" />
+      </div>
+      <div class="inner">
+        <p class="eyebrow">Connect</p>
+        <h1 class="reveal">Tell us what you want people to feel</h1>
+        <p class="reveal reveal-delay-1">Share timing, quantities, and the surfaces you’re considering. We’ll reply with a material path and next steps.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <aside class="contact-panel reveal">
+          <p class="eyebrow">Studio desk</p>
+          <h2>Prefer a direct line?</h2>
+          <p>This prototype form stays on-page. Swap in your real inbox, WhatsApp, or CRM when you go live.</p>
+          <div class="info-row">
+            <div>
+              <strong>Email</strong>
+              hello@idealprinters.example
+            </div>
+            <div>
+              <strong>Phone</strong>
+              +971 00 000 0000
+            </div>
+            <div>
+              <strong>Hours</strong>
+              Mon–Sat · 9:00–18:00
+            </div>
+            <div>
+              <strong>Focus</strong>
+              Packaging · Identity · Spatial
+            </div>
+          </div>
+          <a class="btn btn-primary" href="showcase.html">Browse Showcase</a>
+        </aside>
+
+        <form class="contact-form reveal reveal-delay-1" id="project-form">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required placeholder="Your name" />
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@company.com" />
+          </div>
+          <div class="form-field">
+            <label for="lane">Primary lane</label>
+            <select id="lane" name="lane">
+              <option>Packaging architecture</option>
+              <option>Identity print</option>
+              <option>Spatial graphics</option>
+              <option>Full campaign kit</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="message">Project notes</label>
+            <textarea id="message" name="message" required placeholder="Quantities, deadline, finishes, references…"></textarea>
+          </div>
+          <button class="btn btn-dark" type="submit">Send project brief</button>
+          <p class="form-note">Prototype only — no third-party tracking or external SEO tags are loaded.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Ideal Printers & Packages" />
+        <p>Original print and packaging studio craft for brands that want presence you can hold.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="our-studio.html">Our Studio</a></li>
+          <li><a href="craft-line.html">Craft Line</a></li>
+          <li><a href="showcase.html">Showcase</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="craft-line.html#packaging">Packaging</a></li>
+          <li><a href="craft-line.html#identity">Identity print</a></li>
+          <li><a href="craft-line.html#spatial">Spatial graphics</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="connect.html">Project form</a></li>
+          <li><a href="mailto:hello@idealprinters.example">hello@idealprinters.example</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> Ideal Printers & Packages. All rights reserved.</span>
+      <span>Prototype — original design.</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

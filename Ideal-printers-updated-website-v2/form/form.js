@@ -1,4 +1,4 @@
-(() => {
+﻿(() => {
 	const FORM_ENDPOINT =
 		window.CONTACT_FORM_ENDPOINT ||
 		(window.location.protocol === "file:"
@@ -17,11 +17,19 @@
 
 	function createCaptchaSvgDataUrl(text) {
 		const svg = `
-			<svg xmlns="http://www.w3.org/2000/svg" width="100" height="34" viewBox="0 0 100 34" role="img" aria-label="Captcha">
-				<rect width="100" height="34" fill="#f8f8f8" rx="4" ry="4" />
-				<line x1="4" y1="8" x2="96" y2="26" stroke="#d3d3d3" stroke-width="1" />
-				<line x1="4" y1="26" x2="96" y2="8" stroke="#e3e3e3" stroke-width="1" />
-				<text x="50" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#222" letter-spacing="2">${text}</text>
+			<svg xmlns="http://www.w3.org/2000/svg" width="140" height="44" viewBox="0 0 140 44" role="img" aria-label="Captcha">
+				<defs>
+					<linearGradient id="ipCapBg" x1="0" y1="0" x2="1" y2="1">
+						<stop offset="0%" stop-color="#f4faf9"/>
+						<stop offset="100%" stop-color="#f7efe9"/>
+					</linearGradient>
+				</defs>
+				<rect width="140" height="44" fill="url(#ipCapBg)" rx="10" ry="10"/>
+				<path d="M8 12 C40 4, 70 34, 132 18" fill="none" stroke="#2A9B8F" stroke-opacity="0.28" stroke-width="1.4"/>
+				<path d="M10 32 C48 40, 86 6, 130 28" fill="none" stroke="#2A9B8F" stroke-opacity="0.22" stroke-width="1.4"/>
+				<circle cx="24" cy="22" r="1.4" fill="#2A9B8F" fill-opacity="0.35"/>
+				<circle cx="112" cy="16" r="1.2" fill="#2A9B8F" fill-opacity="0.35"/>
+				<text x="70" y="28" text-anchor="middle" font-family="Sora, Manrope, Arial, sans-serif" font-size="18" font-weight="700" fill="#1A242F" letter-spacing="3">${text}</text>
 			</svg>
 		`.trim();
 

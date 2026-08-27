@@ -1,4 +1,4 @@
-
+﻿
 .copyrights{
     padding: 8px 0;
     margin-bottom: 0;
@@ -10,7 +10,7 @@
     z-index: 2;
   }
   .main-footer{
-    background-image: url("../images/bg_footer-map.webp");
+    background-image: url("../images/bg_footer-map.webp?v=1.0.55");
     /* background-image: repeating-linear-gradient(135deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(22.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, hsl(194,74%,56%),hsl(266,74%,56%),hsl(338,74%,56%),hsl(50,74%,56%),hsl(122,74%,56%));    width: 100%; */
     color: #aaa;
     font-size: 0.9rem;
@@ -38,25 +38,22 @@
   }
   
   .btn-template-main{
-    background-color: #4b82bf;
-    border-radius: 20px;
+    background-color: #2A9B8F;
+    border-radius: 8px;
     height: fit-content;
     margin: 5px !important ;   
     color: white !important;
-    box-shadow: inset 21px 21px 42px #1a3f6e,
-    inset -21px -21px 42px #7aaee0 !important;
+    box-shadow: 0 4px 14px rgba(42, 155, 143, 0.28) !important;
   }
   
   .btn-template-main:hover{
     color: white;
-    background: #1a3f6e !important;
-    box-shadow: inset 21px 21px 42px #5a3e00,
-            inset -21px -21px 42px #d4a030 !important;
-    
+    background: #2F3E4E !important;
+    box-shadow: 0 6px 18px rgba(26, 36, 47, 0.35) !important;
   }
   .contact-us-div{
     text-align: center;
-    background-color: #4b82bf;
+    background-color: #2F3E4E;
     color: white;
     padding: 30px;
   }
@@ -71,21 +68,23 @@
     border-radius: 20px;
   }
   .contact-btn:hover{
-    color: #4b82bf;
+    color: #2A9B8F;
     background: white;
     text-decoration: none;
 
   }
   .about-us-container{
-    margin: auto;
-    padding: 20px 0px;
+    margin: 8px auto 24px;
+    padding: 28px 8px 20px;
     max-width: 1280px;
     transition:  0.1s;
   }
   .about-us-container p{
-    text-align: justify;
+    text-align: left;
     margin-bottom: 0px;
     width: 100%;
+    color: #3d4a55;
+    line-height: 1.7;
   }
   /* bottum-div, fixed whatsapp-icon, back-to-top, quick inquiry */
   #back-to-top {
@@ -98,7 +97,7 @@
     outline: none; 
     background: var(--ip-grad-main);
     color: #fff;
-    box-shadow: 0 4px 14px rgba(33,79,134,0.40);
+    box-shadow: 0 4px 14px rgba(42, 155, 143, 0.35);
     border-radius: 50%;
     cursor: pointer; 
     padding: 4px 10px;
@@ -108,7 +107,7 @@
   #back-to-top:hover {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     transition:   0.5s;
-    background-color: #1a3f6e;
+    background-color: #1A242F;
   }
   #fixed-whatsapp-icon{
     display: block;
@@ -163,7 +162,7 @@
   .icon-bar {
     display: none;
     position: fixed;
-    background-color: #4b82bf;
+    background-color: #2A9B8F;
     color: #fff;
     top: 50%;
     cursor: pointer;
@@ -310,7 +309,7 @@
   }
   @media (min-width:200px) and (max-width: 769px) {
     .btn-template-main{
-      background-color: #4b82bf;
+      background: linear-gradient(135deg, #2A9B8F, #1F756C) !important;
       border-radius: 20px;
       font-size: small;
       margin: 10px auto;
@@ -321,7 +320,7 @@
       }
     .contact-us-div{
         text-align: center;
-        background-color: #4b82bf;
+        background: linear-gradient(135deg, #2A9B8F 0%, #1F756C 45%, #2F3E4E 100%) !important;
         color: white;
         padding: 30px;
         font-size: x-small;

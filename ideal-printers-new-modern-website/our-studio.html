@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Studio | Ideal Printers & Packages</title>
+  <meta name="description" content="Inside Ideal Printers & Packages — a modern studio blending craft, materials, and production clarity." />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="css/brand.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Ideal Printers home">
+        <img src="assets/logo.png" alt="Ideal Printers & Packages" />
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="our-studio.html">Our Studio</a></li>
+        <li><a href="craft-line.html">Craft Line</a></li>
+        <li><a href="showcase.html">Showcase</a></li>
+        <li><a href="connect.html">Connect</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="bg" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1800&q=80" alt="" />
+      </div>
+      <div class="inner">
+        <p class="eyebrow reveal">Our Studio</p>
+        <h1 class="reveal reveal-delay-1">A print house with a design pulse</h1>
+        <p class="reveal reveal-delay-2">We run Ideal as a studio — curious about materials, strict about color, and focused on work that feels owned by the brand, not by a catalog.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container" style="display:grid;grid-template-columns:1.1fr 0.9fr;gap:2.5rem;align-items:center;">
+        <div class="reveal">
+          <p class="eyebrow">Philosophy</p>
+          <h2 style="font-size:clamp(2rem,3.5vw,2.8rem);margin:0.7rem 0 1rem;">Make the physical web memorable again</h2>
+          <p style="color:var(--slate);margin-bottom:1rem;">Screens move fast. Print stays. We design production so packaging, stationery, and spatial graphics earn a second look — and a longer memory.</p>
+          <p style="color:var(--slate);">Our team mixes press operators, finish specialists, and visual designers so decisions stay practical without becoming generic.</p>
+        </div>
+        <div class="reveal reveal-delay-1" style="border-radius:var(--radius);overflow:hidden;min-height:360px;">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" alt="Studio collaboration around samples" style="width:100%;height:100%;object-fit:cover;" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section capabilities">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Studio pillars</p>
+          <h2>What guides every Ideal project</h2>
+          <p>Simple principles that keep work distinctive and production-ready.</p>
+        </div>
+        <div class="cap-grid">
+          <article class="cap-item reveal">
+            <div class="cap-icon">IP</div>
+            <h3>Material honesty</h3>
+            <p>We choose stocks and inks for how they feel in use — not only how they look in a mockup.</p>
+          </article>
+          <article class="cap-item reveal reveal-delay-1">
+            <div class="cap-icon">CR</div>
+            <h3>Crafted restraint</h3>
+            <p>Effects are purposeful. Foil, emboss, and varnish support the story instead of shouting over it.</p>
+          </article>
+          <article class="cap-item reveal reveal-delay-2">
+            <div class="cap-icon">CL</div>
+            <h3>Clear handoffs</h3>
+            <p>Artwork, proofs, and timelines stay transparent so launches stay calm.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-ribbon reveal">
+          <div>
+            <p class="eyebrow">Visit the floor</p>
+            <h2>Want to see samples in person?</h2>
+            <p>Book a studio walkthrough — touch finishes, review structures, and map your next run.</p>
+          </div>
+          <a class="btn btn-primary" href="connect.html">Plan a visit</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Ideal Printers & Packages" />
+        <p>Original print and packaging studio craft for brands that want presence you can hold.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="our-studio.html">Our Studio</a></li>
+          <li><a href="craft-line.html">Craft Line</a></li>
+          <li><a href="showcase.html">Showcase</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="craft-line.html#packaging">Packaging</a></li>
+          <li><a href="craft-line.html#identity">Identity print</a></li>
+          <li><a href="craft-line.html#spatial">Spatial graphics</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="connect.html">Project form</a></li>
+          <li><a href="mailto:hello@idealprinters.example">hello@idealprinters.example</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> Ideal Printers & Packages. All rights reserved.</span>
+      <span>Prototype — original design.</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="js/main.js"></script>
+  <style>
+    @media (max-width: 860px) {
+      .section .container[style*="grid-template-columns"] {
+        grid-template-columns: 1fr !important;
+      }
+    }
+  </style>
+</body>
+</html>

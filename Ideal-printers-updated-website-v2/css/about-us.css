@@ -1,131 +1,268 @@
+﻿/* About / contact shared polish */
 
-          .three-section{
-            align-items: center;
-            display: flex;
-            justify-content: space-between;
-            text-align: center;
-          }
-          .three-section img{
-            height: auto;
-            width: 70px;
-            margin: auto;
-          }
-          .three-section > div{
-            width: fit-content;
-            margin: auto;
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            gap: 20px;
-            padding: 20px;
-            text-align: start;
-            text-align: center;
-            }
-          .three-section p{
-            color: gray;
-            color: white;
-            font-size: smaller;
-          }
-          .a-color a{
-            color: #000000;
-            font-weight: 600;
-          }
+.ip-about-hero {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
 
-          .about-grid {
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            gap: 20px;
-          }
+.ip-about-hero-img,
+.ip-about-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 16px;
+}
 
-          .about-grid .about-content {
-            border: 1px solid #ddd;
-            padding: 20px;
-          }
-          
+.three-section{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 16px;
+  padding: 12px 0;
+}
+.three-section img{
+  height: auto;
+  width: 70px;
+  margin: auto;
+}
+.three-section > div{
+  width: fit-content;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.three-section p{
+  color: rgba(255,255,255,0.85);
+  font-size: smaller;
+}
+.a-color a{
+  color: #1a242f;
+  font-weight: 600;
+}
 
-          .about-grid-2 {
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            gap: 20px;
-          }
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 22px;
+}
 
-          .about-grid-2 .about-content {
-            border: 1px solid #ddd;
-            padding: 20px;
-          }
+.about-grid .about-content,
+.about-grid-2 .about-content {
+  border: 1px solid rgba(47, 62, 78, 0.1);
+  border-radius: 18px;
+  padding: 24px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(26, 36, 47, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
 
-          .about-content img {
-            /* border-radius: 50%; */
-            /* width: 200px;
-            height: 200px; */
-            margin-bottom: 15px;
-          }
+.about-grid .about-content:hover,
+.about-grid-2 .about-content:hover {
+  transform: translateY(-3px);
+  border-color: rgba(42, 155, 143, 0.25);
+  box-shadow: 0 14px 32px rgba(26, 36, 47, 0.1);
+}
 
-          .contact-info {
-            text-align: left;
-          }
+.about-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 22px;
+}
 
-          .contact-info a {
-            color: #4b82bf;
-            font-weight: 500;
-            font-size: large;
-          }
+.about-content img {
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
 
-          .newsletter {
-            text-align: center;
-            background-color: #F3F3F3;
-            padding: 20px;
-          }
+.contact-info {
+  text-align: left;
+}
 
-          .newsletter input {
-            width: 40%;
-            margin: auto;
-          }
-          
+.contact-info a {
+  color: #2A9B8F;
+  font-weight: 600;
+  font-size: large;
+}
 
+.newsletter {
+  text-align: center;
+  background: linear-gradient(165deg, #fff 0%, #f3faf8 100%);
+  border: 1px solid rgba(47, 62, 78, 0.1);
+  border-radius: 18px;
+  padding: 28px 20px;
+  box-shadow: 0 8px 24px rgba(26, 36, 47, 0.05);
+}
 
-          
-          @media (min-width:200px) and (max-width: 769px) {
-            .three-section{
-            align-items: center;
-            display: flex;
-            justify-content: space-between;
-            text-align: center;
-            flex-direction: column;
-          }
-          .three-section p{
-            color: gray;
-            color: white;
-            font-size: x-small;
-          }
-          .three-section h5{
-            font-size: medium;
-          }
-          
-          .about-grid {
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            gap: 20px;
-          }
+.newsletter input {
+  width: 40%;
+  max-width: 320px;
+  border-radius: 999px;
+  border: 1px solid rgba(47, 62, 78, 0.18);
+  padding: 10px 16px;
+}
 
-          .about-grid .about-content {
-            border: 1px solid #ddd;
-            padding: 20px;
-          }
+@media (max-width: 769px) {
+  .about-grid,
+  .about-grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .three-section {
+    flex-direction: column;
+  }
+  .newsletter input {
+    width: 90%;
+  }
+}
 
-          .about-grid-2 {
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            gap: 20px;
-          }
+/* ── What We Offer ── */
+.ip-offer-section {
+  margin: 8px 0 0;
+  padding: 48px 0 52px;
+  background:
+    radial-gradient(800px 280px at 12% 0%, rgba(42, 155, 143, 0.1), transparent 55%),
+    radial-gradient(700px 260px at 90% 20%, rgba(42, 155, 143, 0.08), transparent 50%),
+    linear-gradient(180deg, #f7faf9 0%, #eef4f3 100%);
+}
 
-          .about-grid-2 .about-content {
-            border: 1px solid #ddd;
-            padding: 20px;
-          }
+.ip-offer-title {
+  font-family: "Sora", "Manrope", sans-serif;
+  font-size: clamp(1.55rem, 2.6vw, 2rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #1a242f;
+  text-align: center;
+  margin: 0 0 10px;
+}
 
-          .newsletter input {
-            width: 100%;
-            margin: auto;
-          }
+.ip-offer-title::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 3px;
+  margin: 12px auto 0;
+  border-radius: 99px;
+  background: linear-gradient(90deg, #2A9B8F, #2A9B8F);
+}
 
-          }
+.ip-offer-sub {
+  text-align: center;
+  max-width: 36rem;
+  margin: 14px auto 28px;
+  color: #5a6670;
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.ip-offer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.ip-offer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none !important;
+  color: inherit;
+  background: #fff;
+  border: 1px solid rgba(47, 62, 78, 0.1);
+  border-radius: 18px;
+  padding: 28px 20px 22px;
+  box-shadow: 0 8px 24px rgba(26, 36, 47, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.ip-offer-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(42, 155, 143, 0.28);
+  box-shadow: 0 16px 36px rgba(26, 36, 47, 0.12);
+}
+
+.ip-offer-media {
+  width: 100%;
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.ip-offer-card .features-icons {
+  width: min(72%, 180px) !important;
+  max-width: 180px;
+  height: auto;
+  transition: transform 0.35s ease;
+}
+
+.ip-offer-card:hover .features-icons {
+  transform: scale(1.04);
+}
+
+.ip-offer-label {
+  font-family: "Sora", "Manrope", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  color: #1a242f;
+  margin: 0 0 10px;
+}
+
+.ip-offer-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+  align-self: flex-end;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #2A9B8F;
+  opacity: 0.85;
+  transition: opacity 0.25s ease, transform 0.25s ease, gap 0.25s ease;
+}
+
+.ip-offer-more i {
+  font-size: 0.75rem;
+  transition: transform 0.25s ease;
+}
+
+.ip-offer-card:hover .ip-offer-more {
+  opacity: 1;
+  gap: 8px;
+}
+
+.ip-offer-card:hover .ip-offer-more i {
+  transform: translateX(3px);
+}
+
+@media (max-width: 991px) {
+  .ip-offer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+  .ip-offer-card {
+    padding: 22px 14px 18px;
+    border-radius: 16px;
+  }
+  .ip-offer-media {
+    min-height: 110px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ip-offer-section {
+    padding: 36px 0 40px;
+  }
+  .ip-offer-label {
+    font-size: 0.92rem;
+  }
+}
